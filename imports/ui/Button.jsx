@@ -13,10 +13,14 @@ class Button extends Component {
 		var { children, className, id, onClick } = this.props;
 
 		return (
-			<button className=`button ${ className }` id={ id } onClick= { onClick }>
+			<button className={ this._getClassNames() } id={ id } onClick= { onClick }>
 				{ children }
 			</button>
 		);
+	}
+
+	_getClassNames() {
+		return 'button ' + className;
 	}
 }
 
