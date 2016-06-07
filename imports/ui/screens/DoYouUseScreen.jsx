@@ -16,7 +16,7 @@ class LocationScreen extends Component {
 	_getScreenMessage() {
 		return (
 			<h1>
-				We'd like to use your location to give us an idea of where people are, is that okay?
+				Do you currently use PrEP?
 			</h1>
 		);
 	}
@@ -27,8 +27,11 @@ class LocationScreen extends Component {
 		return false;
 	}
 
-	_goToNextScreen(event) {
-		return true;
+	_goToNextScreen(doesUse) {
+		return function () {
+			// go to Next Screen
+			return doesUse;
+		};
 	}
 
 	render() {
@@ -39,10 +42,10 @@ class LocationScreen extends Component {
 				<div>
 					{ this._getScreenMessage() }
 					<form>
-						<Button className="button-left" onClick={ this._showLocationPopup }>
+						<Button className="button-left" onClick={ this._goToNextScreen(true) }>
 							Yes
 						</Button>
-						<Button className="button-right" onClick={ this._goToNextScreen }>
+						<Button className="button-right" onClick={ this._goToNextScreen(false) }>
 							No
 						</Button>
 					</form>

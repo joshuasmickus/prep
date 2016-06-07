@@ -24,3 +24,5 @@ accounts-ui
 accounts-password
 session
 fourseven:scss
+reactrouter:react-router
+reactrouter:react-router-ssr

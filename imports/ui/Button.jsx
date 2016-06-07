@@ -21,6 +21,10 @@ class Button extends Component {
 }
 
 Button.propTypes = {
+	children: PropTypes.oneOfType([
+		PropTypes.string,
+		PropTypes.element
+	]),
 	className: PropTypes.string,
 	id: PropTypes.string,
 	onClick: PropTypes.func
