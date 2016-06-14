@@ -1,18 +1,13 @@
 import React, { Component, PropTypes } from 'react';
 
+import { createContainer } from 'meteor/react-meteor-data';
+
 import CanWeCollectScreen from './CanWeCollectScreen.jsx';
-import LocationScreen from './LocationScreen.jsx';
 
-const appState = [ 'NEW', 'RETURNING' ];
-const currentAppState = 'NEW';
+export default AppContainer = createContainer(({ params }) => {
+	const { shouldShow } = params;
 
-switch (currentAppState) {
-	case 'NEW':
-	break;
-	case 'RETURNING':
-	break;
-	default:
-	break;
-}
-
-export default CanWeCollectScreen;
+	return {
+		shouldShow
+	};
+}, CanWeCollectScreen);

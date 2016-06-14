@@ -9,7 +9,7 @@ class LocationScreen extends Component {
 
 	getDefaultProps() {
 		return {
-			shouldShow: false
+			shouldShow: true
 		}
 	}
 

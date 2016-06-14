@@ -3,23 +3,23 @@ import React, { Component, PropTypes } from 'react';
 var noop = () => {};
 
 class Button extends Component {
-	getDefaultProps() {
-		return {
-			onClick: noop
-		}
+	constructor(props) {
+		super(props);
+
+		this._getClassNames = this._getClassNames.bind(this);
 	}
 
 	render() {
 		var { children, className, id, onClick } = this.props;
 
 		return (
-			<button className={ this._getClassNames() } id={ id } onClick= { onClick }>
+			<button className={ this._getClassNames(className) } id={ id } onClick= { onClick }>
 				{ children }
 			</button>
 		);
 	}
 
-	_getClassNames() {
+	_getClassNames(className) {
 		return 'button ' + className;
 	}
 }
@@ -32,6 +32,13 @@ Button.propTypes = {
 	className: PropTypes.string,
 	id: PropTypes.string,
 	onClick: PropTypes.func
+};
+
+Button.defaultProps = {
+	children: null,
+	className: null,
+	id: null,
+	onClick: noop
 };
 
 export default Button;

@@ -2,15 +2,13 @@ import React, { Component, PropTypes } from 'react';
 
 import Button from '../Button.jsx';
 
-class LocationScreen extends Component {
+class SexualityScreen extends Component {
 	constructor(props) {
 		super(props);
-	}
 
-	getDefaultProps() {
-		return {
-			shouldShow: false
-		}
+		this._getScreenMessage = this._getScreenMessage.bind(this);
+		this._showLocationPopup = this._showLocationPopup.bind(this);
+		this._goToNextScreen = this._goToNextScreen.bind(this);
 	}
 
 	_getScreenMessage() {
@@ -55,8 +53,12 @@ class LocationScreen extends Component {
 	}
 }
 
-LocationScreen.propTypes = {
+SexualityScreen.propTypes = {
 	shouldShow: PropTypes.bool
 };
 
-export default LocationScreen;
+SexualityScreen.defaultProps = {
+	shouldShow: true
+};
+
+export default SexualityScreen;

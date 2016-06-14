@@ -2,15 +2,13 @@ import React, { Component, PropTypes } from 'react';
 
 import Button from '../Button.jsx';
 
-class LocationScreen extends Component {
+class DoYouUseScreen extends Component {
 	constructor(props) {
 		super(props);
-	}
 
-	getDefaultProps() {
-		return {
-			shouldShow: false
-		}
+		this._getScreenMessage = this._getScreenMessage.bind(this);
+		this._showLocationPopup = this._showLocationPopup.bind(this);
+		this._goToNextScreen = this._goToNextScreen.bind(this);
 	}
 
 	_getScreenMessage() {
@@ -57,8 +55,12 @@ class LocationScreen extends Component {
 	}
 }
 
-LocationScreen.propTypes = {
+DoYouUseScreen.propTypes = {
 	shouldShow: PropTypes.bool
 };
 
-export default LocationScreen;
+DoYouUseScreen.defaultProps = {
+	shouldShow: true
+};
+
+export default DoYouUseScreen;

@@ -7,12 +7,6 @@ class NotFoundScreen extends Component {
 		super(props);
 	}
 
-	getDefaultProps() {
-		return {
-			shouldShow: false
-		}
-	}
-
 	_goToNextScreen(event) {
 		// TODO: Save the result in local storage and go to next screen
 		return true;
@@ -35,6 +29,10 @@ class NotFoundScreen extends Component {
 
 NotFoundScreen.propTypes = {
 	shouldShow: PropTypes.bool
+};
+
+NotFoundScreen.defaultProps = {
+	shouldShow: true
 };
 
 export default NotFoundScreen;
