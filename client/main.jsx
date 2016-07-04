@@ -15,9 +15,10 @@ import NotFoundScreen from '../imports/ui/screens/NotFoundScreen.jsx';
 
 import App from '../imports/ui/App.jsx';
 
-const renderRoutes = () => (
-	<Router history={ browserHistory }>
-		<Route path="/" component={ ScreenDecider }>
+Meteor.startup(function () {
+	render((
+		<Router history={ browserHistory }>
+			<Route path="/" component={ ScreenDecider } />
 			<Route path="age" component={ AgeScreen } />
 			<Route path="do-you-use" component={ DoYouUseScreen } />
 			<Route path="ethnicity" component={ EthnicityScreen } />
@@ -26,10 +27,6 @@ const renderRoutes = () => (
 			<Route path="location" component={ LocationScreen } />
 			<Route path="sexuality" component={ SexualityScreen } />
 			<Route path="*" component={ NotFoundScreen } />
-		</Route>
-	</Router>
-);
-
-Meteor.startup(function () {
-	render(renderRoutes(), document.querySelector('.root'));
+		</Router>
+	), document.querySelector('.root'));
 });

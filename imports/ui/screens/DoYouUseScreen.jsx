@@ -1,5 +1,7 @@
 import React, { Component, PropTypes } from 'react';
 
+import ScreenWrapper from './ScreenWrapper.jsx';
+
 import Button from '../Button.jsx';
 
 class DoYouUseScreen extends Component {
@@ -33,34 +35,24 @@ class DoYouUseScreen extends Component {
 	}
 
 	render() {
-		var { shouldShow } = this.props;
-
-		if (shouldShow) {
-			return (
-				<div>
-					{ this._getScreenMessage() }
-					<form>
-						<Button className="button-left" onClick={ this._goToNextScreen(true) }>
-							Yes
-						</Button>
-						<Button className="button-right" onClick={ this._goToNextScreen(false) }>
-							No
-						</Button>
-					</form>
-				</div>
-			);
-		}
-
-		return null;
+		return (
+			<ScreenWrapper router={ this.props.router }>
+				{ this._getScreenMessage() }
+				<form>
+					<Button className="button-left" onClick={ this._goToNextScreen(true) }>
+						Yes
+					</Button>
+					<Button className="button-right" onClick={ this._goToNextScreen(false) }>
+						No
+					</Button>
+				</form>
+			</ScreenWrapper>
+		);
 	}
 }
 
 DoYouUseScreen.propTypes = {
-	shouldShow: PropTypes.bool
-};
-
-DoYouUseScreen.defaultProps = {
-	shouldShow: true
+	router: PropTypes.func.isRequired
 };
 
 export default DoYouUseScreen;

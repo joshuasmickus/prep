@@ -5,8 +5,6 @@ var noop = () => {};
 class Button extends Component {
 	constructor(props) {
 		super(props);
-
-		this._getClassNames = this._getClassNames.bind(this);
 	}
 
 	render() {

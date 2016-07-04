@@ -1,0 +1,6000 @@
+@charset "UTF-8";
+body,
+button,
+input {
+}
+main {
+    display: block
+}
+[hidden] {
+    display: none!important
+}
+:-moz-ui-invalid {
+    box-shadow: initial
+}
+html {
+    text-size-adjust: 100%
+}
+body {
+    text-rendering: optimizeLegibility
+}
+body,
+button,
+input,
+select,
+textarea {
+    margin: 0
+}
+a,
+button,
+input,
+select,
+textarea {
+    outline: none 0
+}
+fieldset {
+    border: none 0
+}
+fieldset,
+legend {
+    padding: 0
+}
+button,
+input,
+select,
+textarea {
+    color: inherit;
+    font: inherit;
+    line-height: normal
+}
+button:enabled,
+input[type=checkbox]:enabled,
+input[type=radio]:enabled,
+select:enabled {
+    cursor: pointer
+}
+label:not([disabled]) {
+    cursor: pointer
+}
+button,
+select {
+    user-select: none
+}
+textarea {
+    resize: vertical
+}
+iframe {
+    border: none 0
+}
+svg {
+    fill: currentColor
+}
+table {
+    border-collapse: collapse
+}
+body,
+button,
+input {
+}
+main {
+    display: block
+}
+[hidden] {
+    display: none!important
+}
+:-moz-ui-invalid {
+    box-shadow: initial
+}
+html {
+    text-size-adjust: 100%
+}
+body {
+    text-rendering: optimizeLegibility
+}
+body,
+button,
+input,
+select,
+textarea {
+    margin: 0
+}
+a,
+button,
+input,
+select,
+textarea {
+    outline: none 0
+}
+fieldset {
+    border: none 0
+}
+fieldset,
+legend {
+    padding: 0
+}
+button,
+input,
+select,
+textarea {
+    color: inherit;
+    font: inherit;
+    line-height: normal
+}
+button:enabled,
+input[type=checkbox]:enabled,
+input[type=radio]:enabled,
+select:enabled {
+    cursor: pointer
+}
+label:not([disabled]) {
+    cursor: pointer
+}
+button,
+select {
+    user-select: none
+}
+textarea {
+    resize: vertical
+}
+iframe {
+    border: none 0
+}
+svg {
+    fill: currentColor
+}
+table {
+    border-collapse: collapse
+}
+html {
+    height: 100%
+}
+body {
+    font-size: 16px;
+    height: 100%;
+    line-height: 20px;
+    width: 100%
+}
+.root {
+    min-height: 100%;
+    position: relative
+}
+@media only screen and (min-width: 1025px),
+only screen and (min-device-width: 100000px) {
+    .root {
+        min-width: 972px
+    }
+}
+.root.promotion {
+    height: 100%
+}
+.root.input-overlay-active,
+.root.non-input-overlay-active {
+    height: 100%;
+    overflow: hidden
+}
+.root.show-menu {
+    overflow: hidden;
+    position: fixed;
+    width: 100%
+}
+.react-wrapper {
+    height: 100%
+}
+.input-overlay-active .react-wrapper {
+    overflow: hidden
+}
+.page::after {
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 0;
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 8
+}
+address,
+fieldset,
+li,
+ol,
+p,
+table,
+ul {
+    margin: 0
+}
+address:not(:last-child),
+fieldset:not(:last-child),
+li:not(:last-child),
+ol:not(:last-child),
+p:not(:last-child),
+table:not(:last-child),
+ul:not(:last-child) {
+    margin-bottom: 12px
+}
+ol,
+ul {
+    padding-left: 2em;
+    text-align: left
+}
+th,
+td {
+    padding: 2px 4px
+}
+table.center {
+    margin-left: auto;
+    margin-right: auto
+}
+h3,
+h4 {
+    margin: 24px 0 12px
+}
+img,
+picture,
+svg {
+    vertical-align: top
+}
+picture {
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    display: inline-block
+}
+.disable-hover {
+    pointer-events: none
+}
+form:not(:last-child) {
+    margin-bottom: 12px
+}
+@media only screen and (max-width: 683px) and (max-device-width: 100000px) {
+    form.horizontal .field-item:not(:last-child) {
+        margin-bottom: 12px
+    }
+}
+@media only screen and (min-width: 684px),
+only screen and (min-device-width: 100000px) {
+    form.horizontal {
+        text-align: center
+    }
+    form.horizontal .field-item {
+        display: inline-block;
+        vertical-align: top
+    }
+    form.horizontal .field-item:not(:first-child) {
+        margin-left: 12px
+    }
+}
+@media only screen and (min-width: 684px),
+only screen and (min-device-width: 100000px) {
+    form:not(.horizontal) .field-item::after {
+        clear: both;
+        content: "";
+        display: block
+    }
+}
+form:not(.horizontal) .field-item:not(:last-child) {
+    margin-bottom: 12px
+}
+fieldset>ol,
+fieldset>ul {
+    list-style: none;
+    padding: 0
+}
+@media only screen and (min-width: 684px),
+only screen and (min-device-width: 100000px) {
+    .field-item .field-label {
+        float: left;
+        text-align: right;
+        width: 468px
+    }
+    .field-item .field-label+.field-container {
+        float: left;
+        margin-left: 12px
+    }
+}
+.field-container {
+    position: relative
+}
+@media only screen and (max-width: 683px) and (max-device-width: 100000px) {
+    .field-container::after {
+        clear: both;
+        content: "";
+        display: block
+    }
+}
+.field-container button,
+.field-container input[type=checkbox],
+.field-container input[type=radio],
+.field-container input+label,
+.field-container select,
+.field-container .textbox {
+    float: left
+}
+.field-container button:not(:first-child),
+.field-container input[type=checkbox]:not(:first-child),
+.field-container input[type=radio]:not(:first-child),
+.field-container input+label:not(:first-child),
+.field-container select:not(:first-child),
+.field-container .textbox:not(:first-child) {
+    margin-left: 12px
+}
+.field-container button {
+    width: 120px
+}
+.field-container.has-button .textbox:only-of-type {
+    width: 96px
+}
+.field-container [role=status] {
+    box-sizing: border-box;
+    display: none;
+    position: absolute
+}
+@media only screen and (max-width: 683px) and (max-device-width: 100000px) {
+    .field-container [role=status] {
+        top: 100%;
+        width: 100%;
+        z-index: 1
+    }
+}
+@media only screen and (min-width: 684px),
+only screen and (min-device-width: 100000px) {
+    .field-container [role=status] {
+        max-width: 468px;
+        transform: translate(240px, 22px) translateY(-50%)
+    }
+}
+.field-container [role=status] ul {
+    padding: 12px
+}
+.field-container [role=status] li {
+    line-height: 20px;
+    padding: 3px 0
+}
+.field-container input:focus~[role=status],
+.field-container select:focus~[role=status],
+.field-container .focus~[role=status] {
+    display: block
+}
+.form-errors:not(:empty) {
+    margin-bottom: 36px;
+    padding: 12px
+}
+.form-errors>p {
+    margin-bottom: 4px
+}
+output.form-errors {
+    display: block
+}
+@media only screen and (max-width: 1024px) and (max-device-width: 100000px) {
+    input[type=checkbox],
+    input[type=radio],
+    select,
+    .textbox {
+        height: 44px
+    }
+}
+@media only screen and (min-width: 1025px),
+only screen and (min-device-width: 100000px) {
+    input[type=checkbox],
+    input[type=radio],
+    select,
+    .textbox {
+        height: 44px
+    }
+}
+@media only screen and (max-width: 1024px) and (max-device-width: 100000px) {
+    .textbox:not(input) {
+        line-height: 44px
+    }
+}
+@media only screen and (min-width: 1025px),
+only screen and (min-device-width: 100000px) {
+    .textbox:not(input) {
+        line-height: 44px
+    }
+}
+input,
+label.textbox,
+span.textbox {
+    box-sizing: border-box
+}
+.field-item p,
+.field-label,
+input+label {
+    line-height: 20px
+}
+@media only screen and (max-width: 1024px) and (max-device-width: 100000px) {
+    .field-item p,
+    .field-label,
+    input+label {
+        margin-bottom: 12px;
+        margin-top: 12px
+    }
+}
+@media only screen and (min-width: 1025px),
+only screen and (min-device-width: 100000px) {
+    .field-item p,
+    .field-label,
+    input+label {
+        margin-bottom: 12px;
+        margin-top: 12px
+    }
+}
+.mask-placeholder,
+.textbox {
+    padding-left: 12px;
+    padding-right: 12px
+}
+label.textbox,
+span.textbox {
+    position: relative
+}
+@media only screen and (max-width: 1024px) and (max-device-width: 100000px) {
+    label.textbox,
+    span.textbox {
+        line-height: 44px
+    }
+}
+@media only screen and (min-width: 1025px),
+only screen and (min-device-width: 100000px) {
+    label.textbox,
+    span.textbox {
+        line-height: 44px
+    }
+}
+label.textbox:not([disabled]),
+span.textbox:not([disabled]) {
+    cursor: text
+}
+label.textbox input,
+label.textbox .field-delim,
+span.textbox input,
+span.textbox .field-delim {
+    float: left
+}
+label.textbox input,
+span.textbox input {
+    border: none 0;
+    height: 100%;
+    line-height: normal;
+    padding-left: 0;
+    padding-right: 0
+}
+label.textbox input:only-of-type,
+span.textbox input:only-of-type {
+    width: 100%
+}
+label.textbox input:not(:first-child),
+span.textbox input:not(:first-child) {
+    margin-left: 12px
+}
+label.textbox input[size="2"],
+span.textbox input[size="2"] {
+    width: 2em
+}
+label.textbox input[size="4"],
+span.textbox input[size="4"] {
+    width: 4em
+}
+label.textbox .mask-placeholder,
+span.textbox .mask-placeholder {
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    white-space: pre-wrap
+}
+label.textbox .mask-placeholder span,
+span.textbox .mask-placeholder span {
+    visibility: hidden
+}
+.field-small {
+    min-width: 72px
+}
+.textbox[name=username],
+.textbox[name=password] {
+    position: relative;
+    transform: translate3d(0, 0, 0)
+}
+@media only screen and (max-width: 1024px) and (max-device-width: 100000px) {
+    .textbox[name=username],
+    .textbox[name=password] {
+        padding-right: 44px
+    }
+    .textbox[name=username]~button,
+    .textbox[name=password]~button {
+        height: 44px;
+        width: 44px
+    }
+}
+@media only screen and (min-width: 1025px),
+only screen and (min-device-width: 100000px) {
+    .textbox[name=username],
+    .textbox[name=password] {
+        padding-right: 44px
+    }
+    .textbox[name=username]~button,
+    .textbox[name=password]~button {
+        height: 44px;
+        width: 44px
+    }
+}
+.textbox[name=username]~button,
+.textbox[name=password]~button {
+    float: none;
+    margin: 0;
+    position: absolute;
+    right: 0
+}
+.error-message,
+.warning-message {
+    margin: 0 auto
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    .error-message,
+    .warning-message {
+        width: calc((100% - 156px)/12*10 + 108px)
+    }
+}
+@media only screen and (min-width: 444px) and (max-width: 587px) and (max-device-width: 100000px) {
+    .error-message,
+    .warning-message {
+        width: calc((100% - 156px)/12*8 + 84px)
+    }
+}
+@media only screen and (min-width: 588px) and (max-width: 971px) and (max-device-width: 100000px) {
+    .error-message,
+    .warning-message {
+        width: calc((100% - 156px)/12*6 + 60px)
+    }
+}
+@media only screen and (min-width: 972px),
+only screen and (min-device-width: 100000px) {
+    .error-message,
+    .warning-message {
+        width: calc((100% - 156px)/12*4 + 36px)
+    }
+}
+.error-message output,
+.warning-message output {
+    display: inline-block;
+    margin-bottom: 12px;
+    padding: 12px;
+    width: 100%
+}
+.light-layout-button-home,
+.light-layout-button-close,
+.personal-space-holder .button-icon,
+.personal-space-holder .button-personal-space {
+    position: absolute;
+    top: 12px;
+    z-index: 1
+}
+.light-layout-button-home,
+.personal-space-holder .button-icon.button-home {
+    left: 12px
+}
+.light-layout-button-close,
+.personal-space-holder .button-personal-space {
+    right: 12px
+}
+.personal-space-igt .personal-space-holder .button-icon {
+    top: 2px
+}
+.personal-space-igt .igt-ipad-scaled {
+    transform: scale(.5);
+    transform-origin: 0 0;
+    width: 200%
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    .personal-space-igt .igt-ipad-scaled .personal-space-games-list .responsive-img-holder {
+        height: 168px
+    }
+}
+@media only screen and (min-width: 444px) and (max-width: 587px) and (max-device-width: 100000px) {
+    .personal-space-igt .igt-ipad-scaled .personal-space-games-list .responsive-img-holder {
+        height: 120px
+    }
+}
+@media only screen and (min-width: 588px) and (max-width: 683px) and (max-device-width: 100000px) {
+    .personal-space-igt .igt-ipad-scaled .personal-space-games-list .responsive-img-holder {
+        height: 168px
+    }
+}
+@media only screen and (min-width: 684px) and (max-width: 971px) and (max-device-width: 100000px) {
+    .personal-space-igt .igt-ipad-scaled .personal-space-games-list .responsive-img-holder {
+        height: 200px
+    }
+}
+@media only screen and (min-width: 972px),
+only screen and (min-device-width: 100000px) {
+    .personal-space-igt .igt-ipad-scaled .personal-space-games-list .responsive-img-holder {
+        height: 296px
+    }
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    .personal-space-igt .igt-ipad-scaled .message-tiles .message,
+    .personal-space-igt .igt-ipad-scaled .message-tiles .responsive-img-holder {
+        height: 264px
+    }
+}
+@media only screen and (min-width: 444px) and (max-width: 587px) and (max-device-width: 100000px) {
+    .personal-space-igt .igt-ipad-scaled .message-tiles .message,
+    .personal-space-igt .igt-ipad-scaled .message-tiles .responsive-img-holder {
+        height: 192px
+    }
+}
+@media only screen and (min-width: 588px) and (max-width: 683px) and (max-device-width: 100000px) {
+    .personal-space-igt .igt-ipad-scaled .message-tiles .message,
+    .personal-space-igt .igt-ipad-scaled .message-tiles .responsive-img-holder {
+        height: 264px
+    }
+}
+@media only screen and (min-width: 684px) and (max-width: 971px) and (max-device-width: 100000px) {
+    .personal-space-igt .igt-ipad-scaled .message-tiles .message,
+    .personal-space-igt .igt-ipad-scaled .message-tiles .responsive-img-holder {
+        height: 312px
+    }
+}
+@media only screen and (min-width: 972px),
+only screen and (min-device-width: 100000px) {
+    .personal-space-igt .igt-ipad-scaled .message-tiles .message,
+    .personal-space-igt .igt-ipad-scaled .message-tiles .responsive-img-holder {
+        height: 456px
+    }
+}
+.scrollable-section {
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    overflow: auto;
+    height: 100%;
+    position: absolute;
+    width: 100%
+}
+.scrollable {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0
+}
+.show-menu .scrollable {
+    overflow: hidden
+}
+.page-container {
+    height: 100%;
+    width: 100%
+}
+.content-box {
+    margin-left: auto;
+    margin-right: auto
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    .content-box {
+        width: calc((100% - 156px)/12*12 + 132px)
+    }
+}
+@media only screen and (min-width: 444px) and (max-width: 587px) and (max-device-width: 100000px) {
+    .content-box {
+        width: calc((100% - 156px)/12*10 + 108px)
+    }
+}
+@media only screen and (min-width: 588px) and (max-width: 971px) and (max-device-width: 100000px) {
+    .content-box {
+        width: calc((100% - 156px)/12*8 + 84px)
+    }
+}
+@media only screen and (min-width: 972px),
+only screen and (min-device-width: 100000px) {
+    .content-box {
+        width: calc((100% - 156px)/12*6 + 60px)
+    }
+}
+.content-box:not(:last-child) {
+    margin-bottom: 12px
+}
+.overlay {
+    box-sizing: border-box;
+    left: 0;
+    min-height: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 10
+}
+@media only screen and (min-width: 1025px),
+only screen and (min-device-width: 100000px) {
+    .overlay {
+        min-width: 972px
+    }
+}
+.overlay .overlay-button-close {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    transform: translateZ(0);
+    z-index: 1
+}
+.has-focused-field {
+    position: absolute
+}
+.dialog .overlay-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: auto;
+    max-height: 100%
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    .dialog .overlay-content {
+        width: calc((100% - 156px)/12*12 + 132px)
+    }
+}
+@media only screen and (min-width: 444px) and (max-width: 587px) and (max-device-width: 100000px) {
+    .dialog .overlay-content {
+        width: calc((100% - 156px)/12*8 + 84px)
+    }
+}
+@media only screen and (min-width: 588px) and (max-width: 971px) and (max-device-width: 100000px) {
+    .dialog .overlay-content {
+        width: calc((100% - 156px)/12*6 + 60px)
+    }
+}
+@media only screen and (min-width: 972px),
+only screen and (min-device-width: 100000px) {
+    .dialog .overlay-content {
+        width: calc((100% - 156px)/12*4 + 36px)
+    }
+}
+.session-reminder.dialog .overlay-content {
+    top: 45%
+}
+.dialog-content {
+    padding: 12px 12px 24px
+}
+.dialog-content .icon-large {
+    display: block;
+    margin: 0 auto
+}
+.dialog-content .native-icon {
+    height: 60px;
+    margin: 10px auto;
+    width: 60px
+}
+.dialog-heading {
+    line-height: 12px;
+    margin: 0;
+    padding: 12px 0;
+    white-space: nowrap
+}
+.dialog-message {
+    padding: 4px 0
+}
+.dialog-buttons .button {
+    height: 36px
+}
+.dialog-buttons .button:only-child {
+    width: 100%
+}
+.dialog-buttons .button:first-child:nth-last-child(2),
+.dialog-buttons .button:first-child:nth-last-child(2)~.button {
+    width: 50%
+}
+.dialog-buttons .button:first-child:nth-last-child(3),
+.dialog-buttons .button:first-child:nth-last-child(3)~.button {
+    width: 33.333%
+}
+.session-reminder svg {
+    height: 92px;
+    width: 92px
+}
+@media only screen and (max-width: 587px) and (max-device-width: 100000px) and (orientation: landscape) {
+    .session-reminder svg {
+        display: none
+    }
+}
+.session-reminder .dialog-box p {
+    margin-bottom: 0
+}
+.session-reminder-buttons .rc-logout-link {
+    margin-right: 24px
+}
+.growl-list {
+    left: 0;
+    pointer-events: none;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 10
+}
+@media only screen and (max-width: 587px) and (max-device-width: 100000px) {
+    .growl-list {
+        text-align: center
+    }
+}
+@media only screen and (min-width: 588px),
+only screen and (min-device-width: 100000px) {
+    .growl-list {
+        text-align: right
+    }
+}
+@media only screen and (min-width: 0) and (max-width: 683px),
+only screen and (min-width: 684px) and (max-width: 971px) and (orientation: landscape) {
+    .growl-list {
+        transform: translateY(44px)
+    }
+}
+@media only screen and (min-width: 684px) and (max-width: 971px) and (orientation: portrait),
+only screen and (min-width: 972px) {
+    .growl-list {
+        transform: translateY(92px)
+    }
+    .real-play .growl-list,
+    .demo-play .growl-list {
+        transform: translateY(44px)
+    }
+}
+@media only screen and (min-width: 1025px),
+only screen and (min-device-width: 100000px) {
+    .growl-list {
+        min-width: 972px
+    }
+}
+.overlay.modal-window+.growl-list {
+    transform: none
+}
+.growl {
+    box-sizing: border-box;
+    margin: 12px 12px 0;
+    overflow: hidden;
+    pointer-events: initial;
+    position: relative;
+    text-align: left
+}
+@media only screen and (min-width: 444px),
+only screen and (min-device-width: 100000px) {
+    .growl {
+        display: inline-block
+    }
+}
+@media only screen and (min-width: 444px) and (max-width: 587px) and (max-device-width: 100000px) {
+    .growl {
+        width: calc((100% - 156px)/12*10 + 108px)
+    }
+}
+@media only screen and (min-width: 588px) and (max-width: 683px) and (max-device-width: 100000px) {
+    .growl {
+        width: calc((100% - 300px)/24*15 + 168px)
+    }
+}
+@media only screen and (min-width: 684px) and (max-width: 971px) and (max-device-width: 100000px) {
+    .growl {
+        width: calc((100% - 300px)/24*13 + 144px)
+    }
+}
+@media only screen and (min-width: 972px),
+only screen and (min-device-width: 100000px) {
+    .growl {
+        width: calc((100% - 300px)/24*9 + 96px)
+    }
+}
+.growl .growl-heading {
+    margin-top: 0
+}
+.growl .growl-button-cta {
+    height: 36px;
+    width: 100%
+}
+.growl .growl-button-close,
+.growl .icon {
+    position: absolute
+}
+[role=banner] {
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 10
+}
+[role=banner]::after {
+    clear: both;
+    content: "";
+    display: block
+}
+@media only screen and (min-width: 0) and (max-width: 683px),
+only screen and (min-width: 684px) and (max-width: 971px) and (orientation: landscape) {
+    [role=banner] {
+        height: 44px;
+        line-height: 44px
+    }
+}
+@media only screen and (min-width: 684px) and (max-width: 971px) and (orientation: portrait),
+only screen and (min-width: 972px) {
+    [role=banner] {
+        height: 92px;
+        line-height: 92px
+    }
+}
+.real-play [role=banner],
+.demo-play [role=banner] {
+    height: 44px;
+    line-height: 44px
+}
+[role=banner] .logo-container {
+    text-align: center
+}
+.real-play [role=banner] .logo-container,
+.demo-play [role=banner] .logo-container {
+    display: none
+}
+[role=banner] .logo-container a {
+    display: inline-block;
+    vertical-align: top
+}
+@media only screen and (min-width: 0) and (max-width: 683px),
+only screen and (min-width: 684px) and (max-width: 971px) and (orientation: landscape) {
+    [role=banner] .logo-container svg {
+        height: 44px;
+        width: 60px
+    }
+    [role=banner] .logo-container svg .logo-large {
+        display: none
+    }
+}
+@media only screen and (min-width: 684px) and (max-width: 971px) and (orientation: portrait),
+only screen and (min-width: 972px) {
+    [role=banner] .logo-container svg {
+        height: 92px;
+        width: 180px
+    }
+    [role=banner] .logo-container svg .logo {
+        display: none
+    }
+}
+[role=menubar]:not(.menubar-main) {
+    height: 44px
+}
+[role=menubar]:not(.menubar-main) .button {
+    margin-top: 0
+}
+[role=menubar]:not(.menubar-main) .button-icon {
+    margin-top: 0
+}
+.menubar-main {
+    height: inherit;
+    line-height: inherit
+}
+@media only screen and (min-width: 684px) and (max-width: 971px) and (orientation: portrait),
+only screen and (min-width: 972px) {
+    .menubar-main [role=menuitem] {
+        vertical-align: middle
+    }
+    .real-play .menubar-main [role=menuitem],
+    .demo-play .menubar-main [role=menuitem] {
+        vertical-align: top
+    }
+}
+.menubar-main .logo-container {
+    margin: 0 0 0 12px
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    .menubar-main .logo-container {
+        width: calc((100% - 156px)/12*4 + 36px)
+    }
+}
+@media only screen and (min-width: 444px) and (max-width: 683px) and (max-device-width: 100000px) {
+    .menubar-main .logo-container {
+        width: calc((100% - 156px)/12*2 + 12px)
+    }
+}
+@media only screen and (min-width: 684px),
+only screen and (min-device-width: 100000px) {
+    .menubar-main .logo-container {
+        width: calc((100% - 156px)/12*4 + 36px)
+    }
+}
+[role=toolbar],
+.header .logo-container {
+    float: left
+}
+[role=toolbar],
+[role="toolbar"] [role="menuitem"]:not(:first-child) {
+    margin-left: 12px
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    .toolbar-primary {
+        width: calc((100% - 156px)/12*4 + 36px)
+    }
+}
+@media only screen and (min-width: 444px) and (max-width: 683px) and (max-device-width: 100000px) {
+    .toolbar-primary {
+        width: calc((100% - 156px)/12*5 + 48px)
+    }
+}
+@media only screen and (min-width: 684px),
+only screen and (min-device-width: 100000px) {
+    .toolbar-primary {
+        width: calc((100% - 156px)/12*4 + 36px)
+    }
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    .real-play .toolbar-primary,
+    .demo-play .toolbar-primary {
+        width: calc((100% - 156px)/12*3 + 24px)
+    }
+}
+@media only screen and (min-width: 444px) and (max-width: 971px) and (max-device-width: 100000px) {
+    .real-play .toolbar-primary,
+    .demo-play .toolbar-primary {
+        width: calc((100% - 156px)/12*2 + 12px)
+    }
+}
+@media only screen and (min-width: 972px),
+only screen and (min-device-width: 100000px) {
+    .real-play .toolbar-primary,
+    .demo-play .toolbar-primary {
+        width: calc((100% - 300px)/24*2 + 12px)
+    }
+}
+@media only screen and (max-width: 971px) and (max-device-width: 100000px) {
+    .real-play .toolbar-balance {
+        width: calc((100% - 156px)/12*6 + 60px)
+    }
+}
+@media only screen and (min-width: 972px),
+only screen and (min-device-width: 100000px) {
+    .real-play .toolbar-balance {
+        width: calc((100% - 156px)/12*3 + 24px)
+    }
+}
+.real-play .toolbar-balance .balance {
+    width: calc((100% - 12px)/2*1 + 12px)
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    .demo-play .toolbar-balance {
+        width: calc((100% - 156px)/12*6 + 60px)
+    }
+}
+@media only screen and (min-width: 444px) and (max-width: 587px) and (max-device-width: 100000px) {
+    .demo-play .toolbar-balance {
+        width: calc((100% - 156px)/12*4 + 36px)
+    }
+}
+@media only screen and (min-width: 588px) and (max-width: 971px) and (max-device-width: 100000px) {
+    .demo-play .toolbar-balance {
+        width: calc((100% - 156px)/12*4 + 36px)
+    }
+}
+@media only screen and (min-width: 972px),
+only screen and (min-device-width: 100000px) {
+    .demo-play .toolbar-balance {
+        width: calc((100% - 300px)/24*5 + 48px)
+    }
+}
+.toolbar-balance .button-deposit {
+    width: calc((100% - 12px)/2*1);
+    margin-top: 8px;
+    vertical-align: top
+}
+.toolbar-secondary {
+    text-align: right
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    .toolbar-secondary {
+        width: calc((100% - 156px)/12*4 + 36px)
+    }
+    .toolbar-secondary .button {
+        display: none
+    }
+}
+@media only screen and (min-width: 444px) and (max-width: 683px) and (max-device-width: 100000px) {
+    .toolbar-secondary {
+        width: calc((100% - 156px)/12*5 + 48px)
+    }
+}
+@media only screen and (min-width: 684px),
+only screen and (min-device-width: 100000px) {
+    .toolbar-secondary {
+        width: calc((100% - 156px)/12*4 + 36px)
+    }
+}
+@media only screen and (max-width: 971px) and (max-device-width: 100000px) {
+    .real-play .toolbar-secondary {
+        width: calc((100% - 156px)/12*4 + 36px)
+    }
+}
+@media only screen and (min-width: 972px),
+only screen and (min-device-width: 100000px) {
+    .real-play .toolbar-secondary {
+        width: calc((100% - 156px)/12*8 + 84px)
+    }
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    .demo-play .toolbar-secondary {
+        width: calc((100% - 156px)/12*3 + 24px)
+    }
+}
+@media only screen and (min-width: 444px) and (max-width: 587px) and (max-device-width: 100000px) {
+    .demo-play .toolbar-secondary {
+        width: calc((100% - 156px)/12*6 + 60px)
+    }
+    .demo-play .toolbar-secondary [role=menuitem] {
+        margin-left: 0;
+        padding: 0 8px
+    }
+}
+@media only screen and (min-width: 588px) and (max-width: 971px) and (max-device-width: 100000px) {
+    .demo-play .toolbar-secondary {
+        width: calc((100% - 156px)/12*6 + 60px)
+    }
+}
+@media only screen and (min-width: 972px),
+only screen and (min-device-width: 100000px) {
+    .demo-play .toolbar-secondary {
+        width: calc((100% - 300px)/24*17 + 192px)
+    }
+}
+@media only screen and (min-width: 588px),
+only screen and (min-device-width: 100000px) {
+    .acquisition-container .button {
+        width: calc((100% - 12px)/2*1)
+    }
+}
+@media only screen and (min-width: 588px) and (max-width: 971px) and (max-device-width: 100000px) {
+    .demo-play .acquisition-container .button {
+        width: auto
+    }
+}
+@media only screen and (min-width: 972px),
+only screen and (min-device-width: 100000px) {
+    .demo-play .acquisition-container .button {
+        width: calc((100% - 192px)/17*4 + 36px)
+    }
+}
+.cookie-policy-bar,
+.menu-bar-bottom {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    z-index: 8
+}
+@media only screen and (min-width: 444px),
+only screen and (min-device-width: 100000px) {
+    .menubar-acquisition {
+        display: none
+    }
+}
+.menubar-acquisition [role=menuitem] {
+    width: calc((100% - 156px)/12*6 + 60px);
+    margin-left: 12px
+}
+.menu-overflow {
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    right: 12px;
+    top: 56px;
+    transform: translateY(-144px);
+    white-space: nowrap;
+    z-index: -1
+}
+@media only screen and (max-width: 587px) and (max-device-width: 100000px) {
+    .menu-overflow {
+        width: calc((100% - 156px)/12*6 + 60px)
+    }
+}
+@media only screen and (min-width: 588px) and (max-width: 971px) and (max-device-width: 100000px) {
+    .menu-overflow {
+        width: calc((100% - 156px)/12*4 + 36px)
+    }
+}
+@media only screen and (min-width: 972px),
+only screen and (min-device-width: 100000px) {
+    .menu-overflow {
+        width: calc((100% - 156px)/12*3 + 24px)
+    }
+}
+.show-overflow-menu .menu-overflow {
+    transform: translateY(0)
+}
+.menu-overflow [role=menuitem] {
+    margin: 0;
+    padding: 4px
+}
+.menu-overflow [role=menuitem] a,
+.menu-overflow [role=menuitem] button {
+    display: block
+}
+.menu-overflow [role=menuitem] button {
+    text-align: left;
+    width: 100%
+}
+.icon-text {
+    line-height: 36px;
+    vertical-align: top
+}
+.icon-text .icon {
+    margin-right: 12px
+}
+.balance {
+    box-sizing: border-box;
+    cursor: default;
+    display: inline-block;
+    text-align: center;
+    user-select: none;
+    vertical-align: top
+}
+.balance:not(.demo) {
+    padding-right: 12px
+}
+.balance.demo {
+    padding: 0 12px;
+    text-align: left
+}
+.balance.demo span:last-child {
+    padding-left: .5em
+}
+.menu-main {
+    left: -100%;
+    overflow-x: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 9
+}
+@media only screen and (min-width: 0) and (max-width: 683px),
+only screen and (min-width: 684px) and (max-width: 971px) and (orientation: landscape) {
+    .menu-main {
+        height: calc(100% - 44px);
+        top: 44px
+    }
+}
+@media only screen and (min-width: 684px) and (max-width: 971px) and (orientation: portrait),
+only screen and (min-width: 972px) {
+    .menu-main {
+        height: calc(100% - 92px);
+        top: 92px
+    }
+}
+.real-play .menu-main,
+.demo-play .menu-main {
+    height: calc(100% - 44px);
+    top: 44px
+}
+.show-menu .menu-main {
+    transform: translateX(100%)
+}
+.menu-main .menu-pane {
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+    width: 100%
+}
+.menu-main ul {
+    left: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 100%
+}
+@media only screen and (min-width: 972px),
+only screen and (min-device-width: 100000px) {
+    .menu-main ul {
+        margin-top: 12px
+    }
+}
+.menu-main ul ul {
+    left: 100%
+}
+.menu-main .sub-menu li a {
+    padding: 0 56px
+}
+.menu-main li {
+    line-height: 44px;
+    margin: 12px 0;
+    position: relative;
+    white-space: nowrap
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    .menu-main li:first-child {
+        margin-top: 24px
+    }
+}
+.menu-main li a {
+    cursor: pointer;
+    margin: 0 12px;
+    padding: 0 56px;
+    position: relative;
+    width: 100%
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    .menu-main li a {
+        padding: 0 36px
+    }
+}
+.menu-main li .menu-item-label {
+    position: relative
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    .menu-main li .menu-item-label {
+        width: calc((100% - 156px)/12*12 + 132px)
+    }
+}
+@media only screen and (min-width: 444px) and (max-width: 587px) and (max-device-width: 100000px) {
+    .menu-main li .menu-item-label {
+        width: calc((100% - 156px)/12*11 + 120px)
+    }
+}
+@media only screen and (min-width: 588px) and (max-width: 683px) and (max-device-width: 100000px) {
+    .menu-main li .menu-item-label {
+        width: calc((100% - 156px)/12*8 + 84px)
+    }
+}
+@media only screen and (min-width: 684px) and (max-width: 971px) and (max-device-width: 100000px) {
+    .menu-main li .menu-item-label {
+        width: calc((100% - 156px)/12*6 + 60px)
+    }
+}
+@media only screen and (min-width: 972px),
+only screen and (min-device-width: 100000px) {
+    .menu-main li .menu-item-label {
+        width: calc((100% - 156px)/12*5 + 48px)
+    }
+}
+.menu-main li.menu-title {
+    margin: 12px 0
+}
+@media only screen and (min-width: 588px),
+only screen and (min-device-width: 100000px) {
+    .menu-main li.menu-title {
+        margin-bottom: 24px
+    }
+}
+.menu-main li.menu-title svg {
+    height: 44px;
+    left: 12px;
+    padding: 0;
+    width: 44px
+}
+.menu-main li.sub-menu-link {
+    position: static
+}
+.menu-main a {
+    box-sizing: border-box;
+    display: inline-block;
+    line-height: 44px
+}
+.menu-main svg {
+    height: 36px;
+    padding: 4px;
+    position: absolute;
+    right: 0;
+    vertical-align: top;
+    width: 36px
+}
+.login-overlay .overlay-content {
+    overflow: hidden
+}
+@media only screen and (min-width: 972px),
+only screen and (min-device-width: 100000px) {
+    .login-overlay .overlay-content {
+        margin: 0 auto;
+        max-width: 1308px
+    }
+}
+.form-login {
+    transform: translate3d(0, 0, 0)
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    .form-login {
+        padding: 12px 0
+    }
+}
+@media only screen and (min-width: 444px) and (max-width: 683px),
+only screen and (min-width: 684px) and (max-width: 971px) and (orientation: landscape) {
+    .form-login {
+        padding: 36px 0 12px
+    }
+}
+@media only screen and (min-width: 684px) and (max-width: 971px) and (orientation: portrait),
+only screen and (min-width: 972px) {
+    .form-login {
+        padding: 132px 0 12px
+    }
+}
+.form-login .logo-container {
+    margin: 0 auto 12px;
+    text-align: center
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    .form-login .logo-container {
+        width: calc((100% - 156px)/12*8 + 84px)
+    }
+}
+@media only screen and (min-width: 444px) and (max-width: 683px) and (max-device-width: 100000px) {
+    .form-login .logo-container {
+        width: calc((100% - 156px)/12*2 + 12px)
+    }
+}
+@media only screen and (min-width: 684px),
+only screen and (min-device-width: 100000px) {
+    .form-login .logo-container {
+        width: calc((100% - 156px)/12*4 + 36px)
+    }
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    .form-login .logo-container {
+        height: 92px
+    }
+}
+@media only screen and (min-width: 444px) and (max-width: 683px) and (max-device-width: 100000px) {
+    .form-login .logo-container {
+        height: 44px
+    }
+}
+@media only screen and (min-width: 684px),
+only screen and (min-device-width: 100000px) {
+    .form-login .logo-container {
+        height: 92px
+    }
+}
+.form-login .logo-container a {
+    display: inline-block
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    .form-login .logo-container svg {
+        height: 92px;
+        width: 180px
+    }
+    .form-login .logo-container svg .logo {
+        display: none
+    }
+}
+@media only screen and (min-width: 444px) and (max-width: 683px) and (max-device-width: 100000px) {
+    .form-login .logo-container svg {
+        height: 44px;
+        width: 60px
+    }
+    .form-login .logo-container svg .logo-large {
+        display: none
+    }
+}
+@media only screen and (min-width: 684px),
+only screen and (min-device-width: 100000px) {
+    .form-login .logo-container svg {
+        height: 92px;
+        width: 180px
+    }
+    .form-login .logo-container svg .logo {
+        display: none
+    }
+}
+.form-login fieldset {
+    margin: 0 auto 12px
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    .form-login fieldset {
+        width: calc((100% - 156px)/12*10 + 108px)
+    }
+}
+@media only screen and (min-width: 444px) and (max-width: 587px) and (max-device-width: 100000px) {
+    .form-login fieldset {
+        width: calc((100% - 156px)/12*8 + 84px)
+    }
+}
+@media only screen and (min-width: 588px) and (max-width: 971px) and (max-device-width: 100000px) {
+    .form-login fieldset {
+        width: calc((100% - 156px)/12*6 + 60px)
+    }
+}
+@media only screen and (min-width: 972px),
+only screen and (min-device-width: 100000px) {
+    .form-login fieldset {
+        width: calc((100% - 156px)/12*4 + 36px)
+    }
+}
+.form-login .textbox,
+.form-login .button-login {
+    width: 100%
+}
+.form-login .form-login-links {
+    list-style: none;
+    padding: 0
+}
+.form-login .form-login-links li {
+    padding: 12px 0
+}
+@media only screen and (min-width: 444px) and (max-width: 971px) and (max-device-width: 100000px) {
+    .form-login .form-login-links li {
+        display: inline-block;
+        vertical-align: top
+    }
+    .form-login .form-login-links li:not(:last-child) {
+        margin-bottom: 0
+    }
+}
+@media only screen and (min-width: 444px) and (max-width: 683px) and (max-device-width: 100000px) {
+    .form-login .form-login-links li:first-child {
+        width: calc((100% - 156px)/12*5 + 48px)
+    }
+    .form-login .form-login-links li:last-child {
+        width: calc((100% - 156px)/12*7 + 72px)
+    }
+}
+@media only screen and (min-width: 684px) and (max-width: 971px) and (max-device-width: 100000px) {
+    .form-login .form-login-links li:first-child {
+        width: calc((100% - 300px)/24*9 + 96px)
+    }
+    .form-login .form-login-links li:last-child {
+        width: calc((100% - 300px)/24*11 + 120px)
+    }
+}
+.form-login .form-login-links li:not(:last-child) {
+    margin-bottom: 12px
+}
+.real-play .page>.scrollable,
+.demo-play .page>.scrollable {
+    z-index: 10
+}
+.real-play .personal-space,
+.demo-play .personal-space {
+    z-index: auto
+}
+@media only screen and (max-width: 587px) and (max-device-width: 100000px) {
+    .real-play .personal-space,
+    .demo-play .personal-space {
+        padding-top: 12px
+    }
+}
+@media only screen and (min-width: 588px),
+only screen and (min-device-width: 100000px) {
+    .real-play .personal-space,
+    .demo-play .personal-space {
+        padding-top: 68px
+    }
+}
+@media only screen and (min-width: 0) and (max-width: 683px),
+only screen and (min-width: 684px) and (max-width: 971px) and (orientation: landscape) {
+    .personal-space {
+        padding-top: 56px
+    }
+}
+@media only screen and (min-width: 684px) and (max-width: 971px) and (orientation: portrait),
+only screen and (min-width: 972px) {
+    .personal-space {
+        padding-top: 104px
+    }
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    .personal-space .personal-space-details {
+        text-align: center
+    }
+    .personal-space .personal-space-heading {
+        margin: 0 12px 12px
+    }
+    .real-play .personal-space .personal-space-heading,
+    .demo-play .personal-space .personal-space-heading {
+        padding-left: 56px;
+        padding-right: 56px
+    }
+    .personal-space .personal-space-balance {
+        margin: 0 12px 12px
+    }
+}
+@media only screen and (max-width: 587px) and (max-device-width: 100000px) {
+    .personal-space .personal-space-heading {
+        margin: 0 12px;
+        padding: 12px 0
+    }
+}
+@media only screen and (min-width: 444px) and (max-width: 587px) and (max-device-width: 100000px) {
+    .personal-space .personal-space-heading {
+        text-align: center
+    }
+    .personal-space .personal-space-balance {
+        margin: 0 12px
+    }
+    .personal-space .member-balance {
+        text-align: right
+    }
+    .personal-space .points-balance {
+        float: left
+    }
+}
+@media only screen and (min-width: 588px),
+only screen and (min-device-width: 100000px) {
+    .personal-space .personal-space-details {
+        position: relative
+    }
+    .personal-space .personal-space-heading {
+        float: left;
+        line-height: 28px;
+        margin: 0 12px 12px;
+        padding: 8px 0
+    }
+    .personal-space .personal-space-balance {
+        left: 0;
+        margin: 0 12px 12px;
+        position: absolute;
+        right: 0;
+        text-align: right;
+        top: 0
+    }
+}
+.personal-space header {
+    position: relative
+}
+.personal-space .paytable-link {
+    text-align: center
+}
+.personal-space .personal-space-content {
+    margin: 0 auto;
+    max-width: 1308px
+}
+.personal-space .personal-space-details {
+    overflow: hidden
+}
+@media only screen and (min-width: 588px),
+only screen and (min-device-width: 100000px) {
+    .personal-space .personal-space-heading {
+        width: calc((100% - 156px)/12*5 + 48px)
+    }
+}
+@media only screen and (max-width: 587px) and (max-device-width: 100000px) {
+    .personal-space .personal-space-balance .member-balance {
+        display: table;
+        width: 100%
+    }
+}
+.personal-space .personal-space-balance .points-balance {
+    line-height: 44px;
+    padding-right: 20px
+}
+@media only screen and (max-width: 587px) and (max-device-width: 100000px) {
+    .personal-space .personal-space-balance a:not(.button) {
+        display: table-footer-group
+    }
+}
+@media only screen and (max-width: 683px) and (max-device-width: 100000px) {
+    .personal-space .balance,
+    .personal-space .button-deposit {
+        height: 28px;
+        line-height: 28px;
+        margin: 8px 0
+    }
+}
+@media only screen and (min-width: 684px),
+only screen and (min-device-width: 100000px) {
+    .personal-space .balance,
+    .personal-space .button-deposit {
+        height: 36px;
+        line-height: 36px;
+        margin: 4px 0
+    }
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    .personal-space .balance {
+        width: calc((100% - 156px)/12*5 + 60px)
+    }
+}
+@media only screen and (min-width: 444px) and (max-width: 587px) and (max-device-width: 100000px) {
+    .personal-space .balance {
+        width: calc((100% - 156px)/12*3 + 36px)
+    }
+}
+@media only screen and (min-width: 588px),
+only screen and (min-device-width: 100000px) {
+    .personal-space .balance {
+        width: calc((100% - 156px)/12*2 + 24px)
+    }
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    .personal-space .button-deposit {
+        width: calc((100% - 156px)/12*5 + 48px)
+    }
+}
+@media only screen and (min-width: 444px) and (max-width: 587px) and (max-device-width: 100000px) {
+    .personal-space .button-deposit {
+        width: calc((100% - 156px)/12*3 + 24px)
+    }
+}
+@media only screen and (min-width: 588px),
+only screen and (min-device-width: 100000px) {
+    .personal-space .button-deposit {
+        width: calc((100% - 156px)/12*2 + 12px)
+    }
+}
+.personal-space .personal-space-games-list,
+.personal-space .sitewide-jackpot-tickers,
+.personal-space .message-tiles {
+    padding: 0
+}
+.personal-space .personal-space-games-list::after,
+.personal-space .sitewide-jackpot-tickers::after,
+.personal-space .message-tiles::after {
+    clear: both;
+    content: "";
+    display: block
+}
+.personal-space .personal-space-section-heading {
+    display: inline-block;
+    line-height: 32px;
+    margin: 0 12px
+}
+.personal-space a.personal-space-section-heading {
+    float: right
+}
+.personal-space .link-view-more {
+    position: absolute;
+    right: 12px;
+    top: auto
+}
+@media only screen and (max-width: 587px) and (max-device-width: 100000px) {
+    .personal-space .link-view-more {
+        font-size: 12px;
+        line-height: 32px
+    }
+}
+@media only screen and (min-width: 588px),
+only screen and (min-device-width: 100000px) {
+    .personal-space .link-view-more {
+        font-size: 16px;
+        line-height: 32px
+    }
+}
+.sitewide-jackpot-ticker {
+    box-sizing: border-box;
+    display: inline-block;
+    height: 44px;
+    margin: 0 0 12px 12px
+}
+@media only screen and (max-width: 587px) and (max-device-width: 100000px) {
+    .sitewide-jackpot-ticker {
+        width: calc((100% - 156px)/12*6 + 60px)
+    }
+}
+@media only screen and (min-width: 588px),
+only screen and (min-device-width: 100000px) {
+    .sitewide-jackpot-ticker {
+        width: calc((100% - 156px)/12*3 + 24px)
+    }
+}
+.sitewide-jackpot-ticker a {
+    display: block;
+    position: relative;
+    text-align: center
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    .sitewide-jackpot-ticker a {
+        padding-right: 1ex;
+        text-align: right
+    }
+}
+@media only screen and (min-width: 588px) and (max-width: 683px) and (max-device-width: 100000px) {
+    .sitewide-jackpot-ticker a {
+        padding-right: 6.6666%;
+        text-align: right
+    }
+}
+@media only screen and (min-width: 684px) and (max-width: 971px) and (max-device-width: 100000px) {
+    .sitewide-jackpot-ticker a {
+        padding-right: 6.6666%;
+        text-align: right
+    }
+}
+.sitewide-jackpot-ticker img {
+    height: 36px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 36px
+}
+.add-to-homescreen-content {
+    position: fixed;
+    right: 8px;
+    top: 12px;
+    white-space: nowrap;
+    z-index: 10
+}
+.add-to-homescreen-content.ios-7-content {
+    left: 8px;
+    right: auto
+}
+@media only screen and (max-width: 587px) and (max-device-width: 100000px) {
+    .add-to-homescreen-content.safari-menu-bottom-content {
+        bottom: 12px;
+        left: 50%;
+        right: auto;
+        top: auto;
+        transform: translateX(-50%)
+    }
+}
+.add-to-homescreen-content .add-to-homescreen-close {
+    position: absolute;
+    right: 0;
+    top: 0
+}
+.add-to-homescreen-arrow {
+    position: fixed;
+    right: 130px;
+    top: 0;
+    z-index: 10
+}
+@media only screen and (min-width: 588px) and (max-width: 683px) and (max-device-width: 100000px) {
+    .add-to-homescreen-arrow {
+        right: 114px
+    }
+}
+.add-to-homescreen-arrow.ios-7-arrow {
+    left: 135px;
+    right: auto
+}
+@media only screen and (max-width: 587px) and (max-device-width: 100000px) {
+    .add-to-homescreen-arrow.safari-menu-bottom-arrow {
+        bottom: 0;
+        left: 50%;
+        right: auto;
+        top: auto;
+        transform: translateX(-50%)
+    }
+}
+.add-to-homescreen-text {
+    display: inline-block;
+    margin-right: 44px;
+    overflow: auto;
+    position: relative;
+    top: 12px;
+    white-space: nowrap
+}
+.add-to-homescreen-menu-icon {
+    display: inline-block;
+    margin: 0 4px
+}
+.tile .game-tile-jackpot-ticker {
+    bottom: 0;
+    font-size: 16px;
+    left: 0;
+    line-height: 16px;
+    padding: 4px 0;
+    position: absolute;
+    width: 100%
+}
+@media only screen and (min-width: 444px) and (max-width: 587px) and (max-device-width: 100000px) {
+    .tile .game-tile-jackpot-ticker {
+        font-size: 14px;
+        padding: 2px 0
+    }
+}
+.tile.wide .game-tile-jackpot-ticker,
+.tile.tall .game-tile-jackpot-ticker {
+    font-size: 18px;
+    line-height: 24px;
+    padding: 8px 0
+}
+@media only screen and (min-width: 444px) and (max-width: 587px) and (max-device-width: 100000px) {
+    .tile.wide .game-tile-jackpot-ticker,
+    .tile.tall .game-tile-jackpot-ticker {
+        font-size: 16px;
+        line-height: 16px;
+        padding: 4px 0
+    }
+}
+.quick-deposit {
+    width: calc((100% - 156px)/12*12 + 132px);
+    margin: 0 auto
+}
+.quick-deposit:not(.is-polling) {
+    margin: 4px auto 0
+}
+@media only screen and (min-width: 588px) and (max-width: 683px) and (max-device-width: 100000px) {
+    .quick-deposit:not(.is-polling) {
+        width: calc((100% - 156px)/12*11 + 120px)
+    }
+}
+@media only screen and (min-width: 684px) and (max-width: 971px) and (max-device-width: 100000px) {
+    .quick-deposit:not(.is-polling) {
+        width: calc((100% - 156px)/12*8 + 84px)
+    }
+}
+@media only screen and (min-width: 972px),
+only screen and (min-device-width: 100000px) {
+    .quick-deposit:not(.is-polling) {
+        width: calc((100% - 156px)/12*6 + 60px)
+    }
+}
+.quick-deposit .balance-container {
+    box-sizing: border-box;
+    margin: 12px auto
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    .quick-deposit .balance-container {
+        width: 276px
+    }
+}
+@media only screen and (min-width: 444px) and (max-width: 587px) and (max-device-width: 100000px) {
+    .quick-deposit .balance-container {
+        width: 420px
+    }
+}
+@media only screen and (min-width: 588px) and (max-width: 683px) and (max-device-width: 100000px) {
+    .quick-deposit .balance-container {
+        width: 516px
+    }
+}
+@media only screen and (min-width: 684px) and (max-width: 971px) and (max-device-width: 100000px) {
+    .quick-deposit .balance-container {
+        width: 380px
+    }
+}
+@media only screen and (min-width: 972px),
+only screen and (min-device-width: 100000px) {
+    .quick-deposit .balance-container {
+        width: 388px
+    }
+}
+.quick-deposit .balance-container .deposit-balance {
+    width: calc((100% - 132px)/12*7 + 72px);
+    display: inline-block;
+    height: 44px;
+    line-height: 44px;
+    margin-right: 12px
+}
+.quick-deposit .balance-container .deposit-balance .member-balance {
+    display: inline-block
+}
+.quick-deposit .balance-container .add-method {
+    width: calc((100% - 132px)/12*5 + 48px);
+    display: block;
+    float: right;
+    height: 44px;
+    line-height: 44px
+}
+.quick-deposit .cv2-info {
+    min-height: 88px;
+    padding: 12px;
+    position: absolute
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    .quick-deposit .cv2-info {
+        width: calc((100% - 156px)/12*11 + 120px);
+        bottom: 68px;
+        right: 12px
+    }
+}
+@media only screen and (min-width: 444px) and (max-width: 683px) and (max-device-width: 100000px) {
+    .quick-deposit .cv2-info {
+        width: calc((100% - 156px)/12*9 + 96px);
+        left: 0;
+        padding-left: 120px;
+        top: 50%;
+        transform: translateY(-50%)
+    }
+}
+@media only screen and (min-width: 684px),
+only screen and (min-device-width: 100000px) {
+    .quick-deposit .cv2-info {
+        width: calc((100% - 156px)/12*10 + 108px);
+        bottom: 80px;
+        padding-left: 96px;
+        right: 12px
+    }
+}
+@media only screen and (min-width: 684px) and (orientation: landscape) {
+    .quick-deposit .cv2-info {
+        width: calc((100% - 156px)/12*10 + 108px);
+        bottom: 12px;
+        left: -60px
+    }
+}
+.quick-deposit .field-container {
+    margin: 12px auto
+}
+.quick-deposit .field-container::after {
+    clear: both;
+    content: "";
+    display: block
+}
+.quick-deposit .field-container .card-logo {
+    padding: 12px
+}
+.quick-deposit .field-container .card-expiry,
+.quick-deposit .field-container .card-number {
+    text-align: left
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    .quick-deposit .card-container {
+        width: 276px
+    }
+    .quick-deposit .card-container .card-logo {
+        padding-top: 52px
+    }
+    .quick-deposit .card-container .card-number {
+        width: calc((100% - 132px)/12*7 + 72px);
+        margin-bottom: 12px
+    }
+    .quick-deposit .card-container .card-expiry {
+        width: calc((100% - 132px)/12*5 + 48px);
+        margin-bottom: 12px;
+        margin-left: 12px
+    }
+    .quick-deposit .card-container .card-cv2 {
+        width: calc((100% - 132px)/12*5 + 48px);
+        margin-left: 12px
+    }
+}
+@media only screen and (min-width: 444px) and (max-width: 587px) and (max-device-width: 100000px) {
+    .quick-deposit .card-container {
+        width: 420px
+    }
+    .quick-deposit .card-container .card-logo {
+        padding-left: 96px
+    }
+    .quick-deposit .card-container .card-number {
+        width: 112px
+    }
+    .quick-deposit .card-container .card-expiry {
+        margin-left: 12px;
+        text-align: right;
+        width: 80px
+    }
+    .quick-deposit .card-container .card-cv2 {
+        margin-left: 12px;
+        width: 96px
+    }
+}
+@media only screen and (min-width: 588px) and (max-width: 683px) and (max-device-width: 100000px) {
+    .quick-deposit .card-container {
+        width: 516px
+    }
+    .quick-deposit .card-container .card-logo {
+        padding-left: 96px
+    }
+    .quick-deposit .card-container .card-number {
+        width: 168px
+    }
+    .quick-deposit .card-container .card-expiry {
+        margin-left: 12px;
+        width: 96px
+    }
+    .quick-deposit .card-container .card-cv2 {
+        margin-left: 12px;
+        width: 120px
+    }
+}
+@media only screen and (min-width: 684px) and (max-width: 971px) and (max-device-width: 100000px) {
+    .quick-deposit .card-container {
+        width: 380px
+    }
+    .quick-deposit .card-container .card-logo {
+        padding-bottom: 24px;
+        padding-top: 96px
+    }
+    .quick-deposit .card-container .card-number {
+        width: calc((100% - 132px)/12*8 + 84px);
+        margin-bottom: 12px
+    }
+    .quick-deposit .card-container .card-expiry {
+        width: calc((100% - 132px)/12*4 + 36px);
+        margin-bottom: 12px;
+        margin-left: 12px
+    }
+    .quick-deposit .card-container .card-cv2 {
+        width: calc((100% - 132px)/12*4 + 36px);
+        margin-left: 12px
+    }
+}
+@media only screen and (min-width: 972px),
+only screen and (min-device-width: 100000px) {
+    .quick-deposit .card-container {
+        width: 388px
+    }
+    .quick-deposit .card-container .card-logo {
+        padding-bottom: 32px;
+        padding-top: 96px
+    }
+    .quick-deposit .card-container .card-number {
+        width: calc((100% - 132px)/12*8 + 84px);
+        margin-bottom: 12px
+    }
+    .quick-deposit .card-container .card-expiry {
+        width: calc((100% - 132px)/12*4 + 36px);
+        margin-bottom: 12px;
+        margin-left: 12px
+    }
+    .quick-deposit .card-container .card-cv2 {
+        width: calc((100% - 132px)/12*4 + 36px);
+        margin-left: 12px
+    }
+}
+.quick-deposit .card-container .card-number,
+.quick-deposit .card-container .card-expiry {
+    box-sizing: border-box;
+    padding: 0 12px
+}
+.quick-deposit .card-container .card-number,
+.quick-deposit .card-container .card-expiry,
+.quick-deposit .card-container .card-cv2 {
+    float: left;
+    height: 44px;
+    line-height: 44px
+}
+.quick-deposit .card-container .card-cv2 {
+    float: right;
+    position: relative
+}
+.quick-deposit .card-container .card-cv2 input {
+    width: 100%
+}
+.quick-deposit .card-container .icon-help {
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40px
+}
+.quick-deposit .deposit-title {
+    margin: 0 auto;
+    padding: 12px 0 0
+}
+.quick-deposit .deposit-amounts {
+    margin: 0 0 12px;
+    overflow: hidden
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    .quick-deposit .deposit-amounts .text-amount-inputs-container {
+        width: calc((100% - 132px)/12*8 + 84px)
+    }
+    .quick-deposit .deposit-amounts .button-deposit-amount {
+        width: calc((100% - 132px)/12*4 + 36px)
+    }
+    .quick-deposit .deposit-amounts .button-deposit-amount.deposit-amount-2 {
+        margin: 12px 0 0
+    }
+}
+@media only screen and (min-width: 444px),
+only screen and (min-device-width: 100000px) {
+    .quick-deposit .deposit-amounts .text-amount-inputs-container {
+        width: calc((100% - 132px)/12*4 + 36px)
+    }
+    .quick-deposit .deposit-amounts .button-deposit-amount {
+        width: calc((100% - 132px)/12*2 + 12px)
+    }
+}
+.quick-deposit .deposit-amounts .text-amount-inputs-container {
+    display: inline-block;
+    height: 44px;
+    margin-top: 12px;
+    position: relative
+}
+.quick-deposit .deposit-amounts .text-amount-currency {
+    left: 12px;
+    position: absolute;
+    top: 12px
+}
+.quick-deposit .deposit-amounts .button-deposit-amount {
+    display: block;
+    float: left;
+    margin: 12px 12px 0 0
+}
+.quick-deposit .deposit-amounts .text-deposit-amount {
+    font-size: 16px;
+    padding-left: 24px;
+    width: 100%
+}
+.quick-deposit .button-deposit {
+    margin: 12px auto
+}
+@media only screen and (max-width: 587px) and (max-device-width: 100000px) {
+    .quick-deposit .button-deposit {
+        width: calc((100% - 132px)/12*12 + 132px)
+    }
+}
+@media only screen and (min-width: 588px) and (max-width: 683px) and (max-device-width: 100000px) {
+    .quick-deposit .button-deposit {
+        width: calc((100% - 276px)/24*18 + 204px);
+        display: block
+    }
+}
+@media only screen and (min-width: 684px),
+only screen and (min-device-width: 100000px) {
+    .quick-deposit .button-deposit {
+        width: calc((100% - 132px)/12*12 + 132px)
+    }
+}
+.quick-deposit .support-links {
+    margin: 0 auto
+}
+@media only screen and (min-width: 444px) and (max-width: 587px) and (max-device-width: 100000px) {
+    .quick-deposit .support-links {
+        width: calc((100% - 132px)/12*10 + 108px)
+    }
+}
+@media only screen and (min-width: 588px) and (max-width: 683px) and (max-device-width: 100000px) {
+    .quick-deposit .support-links {
+        width: calc((100% - 132px)/12*8 + 84px)
+    }
+}
+@media only screen and (min-width: 684px) and (max-width: 971px) and (max-device-width: 100000px) {
+    .quick-deposit .support-links {
+        width: calc((100% - 132px)/12*10 + 108px)
+    }
+}
+@media only screen and (min-width: 972px),
+only screen and (min-device-width: 100000px) {
+    .quick-deposit .support-links {
+        width: calc((100% - 132px)/12*10 + 108px)
+    }
+}
+.quick-deposit .support-links li {
+    line-height: 44px;
+    overflow: hidden
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    .quick-deposit .support-links li {
+        width: calc((100% - 132px)/12*9 + 96px);
+        float: right;
+        text-align: left
+    }
+}
+@media only screen and (min-width: 444px),
+only screen and (min-device-width: 100000px) {
+    .quick-deposit .support-links li {
+        width: calc((100% - 132px)/12*6 + 60px);
+        display: inline-block;
+        vertical-align: top
+    }
+    .quick-deposit .support-links li:not(:last-child) {
+        margin-right: 12px
+    }
+}
+.quick-deposit .support-links .icon {
+    margin-right: 0;
+    padding-top: 4px
+}
+@media only screen and (min-width: 444px),
+only screen and (min-device-width: 100000px) {
+    .quick-deposit .support-links .safe-secure {
+        margin-right: 12px
+    }
+}
+@media only screen and (max-width: 587px) and (max-device-width: 100000px) {
+    .quick-deposit .error-message {
+        width: calc((100% - 132px)/12*12 + 132px)
+    }
+}
+@media only screen and (min-width: 588px),
+only screen and (min-device-width: 100000px) {
+    .quick-deposit .error-message {
+        width: calc((100% - 132px)/12*10 + 108px)
+    }
+}
+.quick-deposit .polling-message {
+    margin: 24px auto;
+    text-align: center
+}
+@media only screen and (max-width: 587px) and (max-device-width: 100000px) {
+    .quick-deposit .polling-message {
+        width: calc((100% - 156px)/12*12 + 132px);
+        font-size: 16px;
+        line-height: 20px;
+        margin: 24px auto
+    }
+}
+@media only screen and (min-width: 588px) and (max-width: 683px) and (max-device-width: 100000px) {
+    .quick-deposit .polling-message {
+        width: calc((100% - 156px)/12*10 + 108px);
+        font-size: 16px;
+        line-height: 20px;
+        margin: 24px auto
+    }
+}
+@media only screen and (min-width: 684px) and (max-width: 971px) and (max-device-width: 100000px) {
+    .quick-deposit .polling-message {
+        width: calc((100% - 156px)/12*9 + 96px);
+        font-size: 20px;
+        line-height: 24px;
+        margin: 24px auto
+    }
+}
+@media only screen and (min-width: 972px),
+only screen and (min-device-width: 100000px) {
+    .quick-deposit .polling-message {
+        width: calc((100% - 156px)/12*6 + 60px);
+        font-size: 20px;
+        line-height: 24px;
+        margin: 108px auto
+    }
+}
+.quick-deposit .loader-container {
+    position: relative
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    .quick-deposit .loader-container {
+        height: 104px
+    }
+}
+@media only screen and (min-width: 444px) and (max-width: 587px) and (max-device-width: 100000px) {
+    .quick-deposit .loader-container {
+        height: 104px
+    }
+}
+@media only screen and (min-width: 588px) and (max-width: 683px) and (max-device-width: 100000px) {
+    .quick-deposit .loader-container {
+        height: 116px
+    }
+}
+@media only screen and (min-width: 684px) and (max-width: 971px) and (max-device-width: 100000px) {
+    .quick-deposit .loader-container {
+        height: 132px
+    }
+}
+@media only screen and (min-width: 972px),
+only screen and (min-device-width: 100000px) {
+    .quick-deposit .loader-container {
+        height: 264px
+    }
+}
+.quick-deposit.is-polling fieldset {
+    display: none
+}
+.quick-deposit.is-polling .support-links {
+    margin-top: 0
+}
+.quick-deposit .quick-deposit-trustmarks {
+    list-style-type: none;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    .quick-deposit .quick-deposit-trustmarks {
+        width: calc((100% - 132px)/12*8 + 84px);
+        font-size: 16px
+    }
+    .quick-deposit .quick-deposit-trustmarks .icon {
+        margin: 4px
+    }
+}
+@media only screen and (min-width: 444px) and (max-width: 587px) and (max-device-width: 100000px) {
+    .quick-deposit .quick-deposit-trustmarks {
+        font-size: 12px
+    }
+}
+@media only screen and (min-width: 444px),
+only screen and (min-device-width: 100000px) {
+    .quick-deposit .quick-deposit-trustmarks {
+        text-align: center
+    }
+    .quick-deposit .quick-deposit-trustmarks .icon {
+        display: block;
+        margin: 4px auto
+    }
+}
+@media only screen and (min-width: 588px) and (max-width: 971px) and (max-device-width: 100000px) {
+    .quick-deposit .quick-deposit-trustmarks {
+        font-size: 16px
+    }
+}
+@media only screen and (min-width: 972px),
+only screen and (min-device-width: 100000px) {
+    .quick-deposit .quick-deposit-trustmarks {
+        width: calc((100% - 132px)/12*8 + 84px);
+        font-size: 20px
+    }
+}
+.quick-deposit .quick-deposit-trustmarks>li {
+    line-height: 44px;
+    min-height: 44px
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    .quick-deposit .quick-deposit-trustmarks>li {
+        display: block
+    }
+}
+@media only screen and (min-width: 444px),
+only screen and (min-device-width: 100000px) {
+    .quick-deposit .quick-deposit-trustmarks>li {
+        width: calc((100% - 132px)/12*4 + 36px);
+        display: inline-block
+    }
+}
+.quick-deposit .quick-deposit-trustmarks>li:not(:last-child) {
+    margin-right: 12px
+}
+.quick-deposit .quick-deposit-trustmarks>li:last-child {
+    margin-bottom: 12px
+}
+.quick-deposit-overlay.is-polling .overlay-button-close {
+    display: none
+}
+.loader-quick-deposit {
+    height: 36px;
+    left: calc(50% - 36px);
+    overflow: hidden;
+    position: absolute;
+    top: calc(50% - 36px);
+    width: 72px;
+    z-index: -1
+}
+[role=search] {
+    display: none
+}
+.page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%
+}
+.demo-play .page,
+.real-play .page,
+.login .page {
+    display: block
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    .root:not(.demo-play).logged-out .scrollable-section {
+        box-sizing: border-box;
+        padding-bottom: 44px
+    }
+}
+main {
+    flex-grow: 1;
+    flex-shrink: 0
+}
+main.real-play-content,
+main.demo-play-content {
+    position: fixed;
+    text-align: center
+}
+.lobby .tile a {
+    position: relative
+}
+@media only screen and (min-width: 0) and (max-width: 683px),
+only screen and (min-width: 684px) and (max-width: 971px) and (orientation: landscape) {
+    .logged-out .lobby {
+        padding: 56px 0 24px
+    }
+}
+@media only screen and (min-width: 684px) and (max-width: 971px) and (orientation: portrait),
+only screen and (min-width: 972px) {
+    .logged-out .lobby {
+        padding: 104px 0 36px
+    }
+}
+@media only screen and (max-width: 683px) and (max-device-width: 100000px) {
+    .logged-in .lobby {
+        padding-bottom: 24px
+    }
+}
+@media only screen and (min-width: 684px),
+only screen and (min-device-width: 100000px) {
+    .logged-in .lobby {
+        padding-bottom: 36px
+    }
+}
+.lobby .hero-container {
+    position: relative
+}
+.lobby .welcome-bonus-tnc-link {
+    bottom: 0;
+    box-sizing: border-box;
+    display: block;
+    padding: 4px 12px;
+    text-align: center;
+    width: 100%
+}
+.lobby section,
+.lobby div.section {
+    overflow: hidden;
+    user-select: none
+}
+.lobby section:not(:last-child),
+.lobby div.section:not(:last-child) {
+    margin-bottom: 12px
+}
+.lobby section.promotion,
+.lobby div.section.promotion {
+    margin-bottom: 24px
+}
+.lobby section>header,
+.lobby div.section>header {
+    box-sizing: border-box;
+    line-height: 20px;
+    margin: 0 auto;
+    max-width: 1308px
+}
+@media only screen and (max-width: 587px) and (max-device-width: 100000px) {
+    .lobby section>header,
+    .lobby div.section>header {
+        padding: 6px 12px
+    }
+}
+@media only screen and (min-width: 588px) and (max-width: 683px) and (max-device-width: 100000px) {
+    .lobby section>header,
+    .lobby div.section>header {
+        padding: 12px
+    }
+}
+@media only screen and (min-width: 684px),
+only screen and (min-device-width: 100000px) {
+    .lobby section>header,
+    .lobby div.section>header {
+        padding: 20px 12px
+    }
+}
+@media only screen and (min-width: 444px),
+only screen and (min-device-width: 100000px) {
+    .lobby .section-inline {
+        width: calc((100% - 12px)/2);
+        display: inline-block;
+        margin: 0 0 12px
+    }
+}
+.lobby .section-heading {
+    display: inline-block;
+    margin: 0
+}
+.lobby a.section-heading {
+    float: right
+}
+.lobby .game-list-container {
+    margin: 0 auto;
+    max-width: 1308px
+}
+.lobby .game-title {
+    line-height: 32px;
+    margin: 0 0 -12px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    text-overflow: ellipsis;
+    text-rendering: auto;
+    vertical-align: bottom;
+    white-space: nowrap;
+    z-index: 1
+}
+.lobby .header-links {
+    float: right
+}
+.lobby .header-links a:not(:first-child) {
+    margin-left: 12px
+}
+.lobby ul {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1308px;
+    padding: 0
+}
+.lobby ul::after {
+    clear: both;
+    content: "";
+    display: block
+}
+@media only screen and (min-width: 0) and (max-width: 683px),
+only screen and (min-width: 684px) and (max-width: 971px) and (orientation: landscape) {
+    .promotions-lobby {
+        padding: 56px 0 24px
+    }
+}
+@media only screen and (min-width: 684px) and (max-width: 971px) and (orientation: portrait),
+only screen and (min-width: 972px) {
+    .promotions-lobby {
+        padding: 104px 0 36px
+    }
+}
+.promotions-lobby .page-heading {
+    line-height: 12px
+}
+@media only screen and (max-width: 587px) and (max-device-width: 100000px) {
+    .promotions-lobby .page-heading {
+        margin: 8px 0 20px
+    }
+}
+@media only screen and (min-width: 588px),
+only screen and (min-device-width: 100000px) {
+    .promotions-lobby .page-heading {
+        margin: 36px 0
+    }
+}
+.promotions-lobby>header,
+.promotions-category>header {
+    box-sizing: border-box;
+    line-height: 20px;
+    margin: 0 auto;
+    max-width: 1308px
+}
+.promotions-category {
+    overflow: hidden
+}
+@media only screen and (max-width: 587px) and (max-device-width: 100000px) {
+    .promotions-category {
+        padding-bottom: 12px
+    }
+    .promotions-category header {
+        padding-bottom: 12px
+    }
+    .promotions-category .section-sub-heading {
+        margin: 0
+    }
+}
+@media only screen and (min-width: 588px),
+only screen and (min-device-width: 100000px) {
+    .promotions-category {
+        padding-bottom: 24px
+    }
+    .promotions-category header {
+        padding-bottom: 24px
+    }
+    .promotions-category .section-sub-heading {
+        margin: 12px 0 0
+    }
+}
+.promotions-category ul {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1308px;
+    padding: 0
+}
+.promotions-category ul::after {
+    clear: both;
+    content: "";
+    display: block
+}
+.promotions-category .section-heading {
+    margin: 0
+}
+@media only screen and (max-width: 587px) and (max-device-width: 100000px) {
+    .promotions-category .section-heading {
+        line-height: 20px
+    }
+}
+@media only screen and (min-width: 588px),
+only screen and (min-device-width: 100000px) {
+    .promotions-category .section-heading {
+        line-height: 24px
+    }
+}
+@media only screen and (min-width: 588px),
+only screen and (min-device-width: 100000px) {
+    .promotions-category .section-sub-heading {
+        line-height: 8px
+    }
+}
+.game-info-container {
+    margin: 0 auto;
+    max-width: 1308px
+}
+.game-info-container ul {
+    list-style: none;
+    padding: 0
+}
+.game-info-container dt,
+.game-info-container dd {
+    display: inline-block;
+    vertical-align: top
+}
+.game-info-container dt {
+    text-align: right
+}
+.game-info-container .game-info-image-container {
+    margin: 0 0 12px
+}
+.game-info-container .game-info-image-container .responsive-img-holder {
+    display: block
+}
+.game-info-container .play-buttons {
+    text-align: center
+}
+.game-info-container .play-buttons a {
+    width: calc((100% - 36px)/2);
+    margin-left: 12px
+}
+@media only screen and (min-width: 444px) and (max-width: 587px) and (max-device-width: 100000px) {
+    .game-info-container .play-buttons a {
+        width: calc((100% - 156px)/12*4 + 36px)
+    }
+}
+@media only screen and (min-width: 588px),
+only screen and (min-device-width: 100000px) {
+    .game-info-container .play-buttons a {
+        width: calc((100% - 156px)/12*3 + 24px)
+    }
+}
+.game-info-container .play-buttons a:first-child {
+    margin-left: 0
+}
+.game-info-container .play-buttons.button-single a {
+    margin-left: 0
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    .game-info-container .play-buttons.button-single a {
+        width: calc((100% - 24px)/1)
+    }
+}
+@media only screen and (min-width: 588px),
+only screen and (min-device-width: 100000px) {
+    .game-info-container .play-buttons.button-single a {
+        width: calc((100% - 36px)/2)
+    }
+}
+.game-info-container .play-buttons+.game-info-bets-container {
+    margin-top: 12px
+}
+.game-info-container .game-details-bet-amounts {
+    display: inline-block;
+    margin: 12px auto 0
+}
+.game-info-container .game-details-bet-amounts,
+.game-info-container .game-info-bets-container {
+    text-align: center
+}
+.game-info-container .toggle,
+.game-info-container .bet-amount {
+    display: inline-block;
+    line-height: 44px;
+    margin: 0 20px
+}
+.game-info-container .toggle {
+    height: auto;
+    margin-right: 9px;
+    padding: 0
+}
+.game-info-container .toggle svg {
+    margin-top: 4px
+}
+.game-info-container .hide-more-info .game-details,
+.game-info-container .hide-more-info .game-info {
+    border: 0;
+    height: 0;
+    overflow: hidden;
+    padding: 0
+}
+.game-info-container .game-summary,
+.game-info-container .text-above-buttons {
+    text-align: center
+}
+.game-info-container .game-summary,
+.game-info-container .game-details,
+.game-info-container .text-above-buttons {
+    margin: 0 auto
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    .game-info-container .game-summary,
+    .game-info-container .game-details,
+    .game-info-container .text-above-buttons {
+        margin: 0 12px
+    }
+}
+@media only screen and (min-width: 444px) and (max-width: 587px) and (max-device-width: 100000px) {
+    .game-info-container .game-summary,
+    .game-info-container .game-details,
+    .game-info-container .text-above-buttons {
+        width: calc((100% - 108px)/10*8 + 84px)
+    }
+}
+@media only screen and (min-width: 588px) and (max-width: 971px) and (max-device-width: 100000px) {
+    .game-info-container .game-summary,
+    .game-info-container .game-details,
+    .game-info-container .text-above-buttons {
+        width: calc((100% - 84px)/8*5 + 48px)
+    }
+}
+@media only screen and (min-width: 972px),
+only screen and (min-device-width: 100000px) {
+    .game-info-container .game-summary,
+    .game-info-container .game-details,
+    .game-info-container .text-above-buttons {
+        width: calc((100% - 60px)/6*3 + 24px)
+    }
+}
+.game-info-container .text-above-buttons {
+    margin-bottom: 24px
+}
+.game-info-container .text-above-buttons h4 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 6px
+}
+.game-info-container .game-details dl:not(:empty) {
+    margin-bottom: 12px;
+    margin-top: 0;
+    padding-top: 12px
+}
+.game-info-container .game-details dl:empty {
+    margin-bottom: 24px;
+    margin-top: 0
+}
+.game-info-container .game-details dt,
+.game-info-container .game-details dd {
+    display: inline-block;
+    margin: 0;
+    width: calc(50% - 6px)
+}
+.game-info-container .game-details dt {
+    margin-right: 12px
+}
+.game-info-container .game-info-tabs {
+    margin: 0 auto 24px;
+    text-align: center
+}
+@media only screen and (min-width: 444px) and (max-width: 587px) and (max-device-width: 100000px) {
+    .game-info-container .game-info-tabs {
+        width: calc((100% - 108px)/10*8 + 84px)
+    }
+}
+@media only screen and (min-width: 588px) and (max-width: 971px) and (max-device-width: 100000px) {
+    .game-info-container .game-info-tabs {
+        width: calc((100% - 84px)/8*6 + 60px)
+    }
+}
+@media only screen and (min-width: 972px),
+only screen and (min-device-width: 100000px) {
+    .game-info-container .game-info-tabs {
+        width: calc((100% - 60px)/6*4 + 36px)
+    }
+}
+.game-info-container .game-info-tabs .tab-heading {
+    min-width: 0;
+    width: 50%
+}
+.game-info-container .show-introduction .game-info-how-to-play {
+    display: none
+}
+.game-info-container .show-how-to-play .game-info-introduction {
+    display: none
+}
+.game-info-page-content .game-info,
+.game-info-overlay .game-info {
+    min-height: 50vh
+}
+.game-info-overlay-content {
+    padding-bottom: 12px
+}
+@media only screen and (min-width: 0) and (max-width: 683px),
+only screen and (min-width: 684px) and (max-width: 971px) and (orientation: landscape) {
+    .game-info-page-content {
+        padding: 44px 0 24px
+    }
+}
+@media only screen and (min-width: 684px) and (max-width: 971px) and (orientation: portrait),
+only screen and (min-width: 972px) {
+    .game-info-page-content {
+        padding: 92px 0 36px
+    }
+}
+.game-info-page-content .breadcrumbs {
+    box-sizing: border-box;
+    display: block;
+    list-style: none;
+    margin-top: 12px;
+    text-align: center;
+    width: 100%
+}
+.game-info-page-content .breadcrumbs li {
+    display: inline-block;
+    padding: 0 12px 0 0
+}
+.game-info-page-content .breadcrumbs a {
+    display: inline-block;
+    padding-right: 6px
+}
+.related-games-container {
+    margin-top: 24px
+}
+.related-games-container .related-games-title {
+    margin: 0 12px 12px
+}
+.related-games-container .game-title {
+    line-height: 32px;
+    margin: 0 0 -12px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    text-overflow: ellipsis;
+    text-rendering: auto;
+    vertical-align: bottom;
+    white-space: nowrap;
+    z-index: 1
+}
+.related-games-container ul::after {
+    clear: both;
+    content: "";
+    display: block
+}
+@media only screen and (min-width: 0) and (max-width: 683px),
+only screen and (min-width: 684px) and (max-width: 971px) and (orientation: landscape) {
+    .sitemap-page {
+        padding: 56px 0 24px
+    }
+}
+@media only screen and (min-width: 684px) and (max-width: 971px) and (orientation: portrait),
+only screen and (min-width: 972px) {
+    .sitemap-page {
+        padding: 104px 0 36px
+    }
+}
+@media only screen and (min-width: 972px),
+only screen and (min-device-width: 100000px) {
+    .sitemap-page {
+        margin: 0 auto;
+        max-width: 1308px
+    }
+}
+.sitemap-page.error-message {
+    text-align: center
+}
+.sitemap-page section,
+.sitemap-page .breadcrumbs {
+    margin-left: auto;
+    margin-right: auto
+}
+@media only screen and (max-width: 587px) and (max-device-width: 100000px) {
+    .sitemap-page section,
+    .sitemap-page .breadcrumbs {
+        width: calc((100% - 156px)/12*12 + 132px)
+    }
+}
+@media only screen and (min-width: 588px) and (max-width: 971px) and (max-device-width: 100000px) {
+    .sitemap-page section,
+    .sitemap-page .breadcrumbs {
+        width: calc((100% - 156px)/12*10 + 108px)
+    }
+}
+@media only screen and (min-width: 972px),
+only screen and (min-device-width: 100000px) {
+    .sitemap-page section,
+    .sitemap-page .breadcrumbs {
+        width: calc((100% - 156px)/12*8 + 84px)
+    }
+}
+.sitemap-page section {
+    margin-bottom: 36px
+}
+@media only screen and (max-width: 683px) and (max-device-width: 100000px) {
+    .sitemap-page section h1 {
+        line-height: 24px;
+        margin: 24px 0 36px
+    }
+}
+@media only screen and (max-width: 683px) and (max-device-width: 100000px) {
+    .sitemap-page section h1 {
+        line-height: 32px;
+        margin: 12px 0 24px
+    }
+}
+.sitemap-page section ul {
+    list-style: none;
+    padding: 0
+}
+.sitemap-page .breadcrumbs {
+    list-style: none;
+    padding: 0
+}
+.sitemap-page .breadcrumbs li {
+    display: inline-block;
+    padding-right: 12px
+}
+.sitemap-page .breadcrumbs a {
+    padding-right: 6px
+}
+@media only screen and (min-width: 0) and (max-width: 683px),
+only screen and (min-width: 684px) and (max-width: 971px) and (orientation: landscape) {
+    .page-not-found-page {
+        padding: 56px 12px 24px
+    }
+}
+@media only screen and (min-width: 684px) and (max-width: 971px) and (orientation: portrait),
+only screen and (min-width: 972px) {
+    .page-not-found-page {
+        padding: 104px 12px 36px
+    }
+}
+@media only screen and (min-width: 972px),
+only screen and (min-device-width: 100000px) {
+    .page-not-found-page {
+        margin: 0 auto;
+        max-width: 1308px
+    }
+}
+.page-not-found-page section {
+    text-align: center
+}
+@media only screen and (max-width: 683px) and (max-device-width: 100000px) {
+    .page-not-found-page h1 {
+        line-height: 24px;
+        margin: 24px 0 36px
+    }
+}
+@media only screen and (min-width: 684px),
+only screen and (min-device-width: 100000px) {
+    .page-not-found-page h1 {
+        line-height: 32px;
+        margin: 12px 0 24px
+    }
+}
+.game-holder {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0
+}
+.game-holder iframe {
+    border: none 0;
+    height: 100%;
+    position: relative;
+    vertical-align: top;
+    width: 100%
+}
+.game-with-header .game-holder {
+    top: 44px
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    [role=contentinfo] {
+        padding: 24px 0 56px
+    }
+}
+@media only screen and (min-width: 444px),
+only screen and (min-device-width: 100000px) {
+    [role=contentinfo] {
+        padding: 24px 0 0
+    }
+}
+[role=contentinfo] .social ul,
+[role=contentinfo] .trustmarks ul,
+[role=contentinfo] .links ul {
+    list-style: none;
+    padding: 0;
+    text-align: center
+}
+[role=contentinfo] .social li,
+[role=contentinfo] .trustmarks li,
+[role=contentinfo] .links li {
+    display: inline-block;
+    margin-bottom: 12px;
+    vertical-align: top
+}
+[role=contentinfo] .social a,
+[role=contentinfo] .trustmarks a,
+[role=contentinfo] .links a {
+    display: block
+}
+@media only screen and (min-width: 684px) and (max-width: 971px) and (max-device-width: 100000px) {
+    [role=contentinfo] .social,
+    [role=contentinfo] .trustmarks {
+        display: inline-block;
+        width: 50%
+    }
+}
+@media only screen and (min-width: 972px),
+only screen and (min-device-width: 100000px) {
+    [role=contentinfo] .social,
+    [role=contentinfo] .trustmarks {
+        width: calc((100% - 156px)/12*4 + 36px);
+        display: inline-block
+    }
+}
+[role=contentinfo] .social li,
+[role=contentinfo] .trustmarks li {
+    margin-bottom: 24px
+}
+@media only screen and (max-width: 683px) and (max-device-width: 100000px) {
+    [role=contentinfo] .social li:not(:first-child),
+    [role=contentinfo] .trustmarks li:not(:first-child) {
+        margin-left: 12px
+    }
+}
+@media only screen and (min-width: 684px),
+only screen and (min-device-width: 100000px) {
+    [role=contentinfo] .social li,
+    [role=contentinfo] .trustmarks li {
+        margin-left: 0;
+        width: 25%
+    }
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    [role=contentinfo] .social li,
+    [role=contentinfo] .trustmarks li {
+        width: calc((100% - 156px)/12*3 + 24px)
+    }
+}
+@media only screen and (min-width: 444px) and (max-width: 683px) and (max-device-width: 100000px) {
+    [role=contentinfo] .social li,
+    [role=contentinfo] .trustmarks li {
+        width: calc((100% - 156px)/12*2 + 12px)
+    }
+}
+[role=contentinfo] .social svg,
+[role=contentinfo] .trustmarks svg {
+    height: 44px;
+    width: 60px
+}
+@media only screen and (min-width: 972px),
+only screen and (min-device-width: 100000px) {
+    [role=contentinfo] .social {
+        margin-left: calc((100% - 156px)/12*2 + 24px)
+    }
+}
+@media only screen and (min-width: 444px) and (max-width: 683px) and (max-device-width: 100000px) {
+    [role=contentinfo] .trustmarks li {
+        width: calc((100% - 156px)/12*3 + 24px)
+    }
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    [role=contentinfo] .links li {
+        margin-left: 6px;
+        margin-right: 6px
+    }
+}
+@media only screen and (min-width: 444px) and (max-width: 587px) and (max-device-width: 100000px) {
+    [role=contentinfo] .links li {
+        margin-left: 12px;
+        margin-right: 12px
+    }
+}
+@media only screen and (min-width: 588px) and (max-width: 683px) and (max-device-width: 100000px) {
+    [role=contentinfo] .links li {
+        margin-left: 24px;
+        margin-right: 24px
+    }
+}
+@media only screen and (min-width: 684px) and (max-width: 971px) and (max-device-width: 100000px) {
+    [role=contentinfo] .links li {
+        margin-left: 36px;
+        margin-right: 36px
+    }
+}
+@media only screen and (min-width: 972px),
+only screen and (min-device-width: 100000px) {
+    [role=contentinfo] .links li {
+        margin-left: 48px;
+        margin-right: 48px
+    }
+}
+[role=contentinfo] .links a {
+    padding: 12px 0
+}
+[role=contentinfo] .info p:last-of-type {
+    margin-bottom: 0
+}
+[role=contentinfo] .welcome-bonus-tnc:not(:last-child) {
+    margin-bottom: 12px
+}
+[role=contentinfo] .back-to-top {
+    display: block;
+    margin: 0 auto 12px
+}
+.cookie-policy {
+    box-sizing: border-box;
+    padding: 12px 0;
+    text-align: center
+}
+.cookie-policy p {
+    line-height: 16px;
+    margin-left: auto;
+    margin-right: auto
+}
+@media only screen and (min-width: 444px) and (max-width: 587px) and (max-device-width: 100000px) {
+    .cookie-policy p {
+        width: calc((100% - 156px)/12*10 + 108px)
+    }
+}
+@media only screen and (min-width: 588px) and (max-width: 971px) and (max-device-width: 100000px) {
+    .cookie-policy p {
+        width: calc((100% - 156px)/12*8 + 84px)
+    }
+}
+@media only screen and (min-width: 972px),
+only screen and (min-device-width: 100000px) {
+    .cookie-policy p {
+        width: calc((100% - 156px)/12*6 + 60px)
+    }
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    .cookie-policy .close-cookie-policy {
+        width: calc((100% - 156px)/12*10 + 108px)
+    }
+}
+@media only screen and (min-width: 444px) and (max-width: 587px) and (max-device-width: 100000px) {
+    .cookie-policy .close-cookie-policy {
+        width: calc((100% - 156px)/12*6 + 60px)
+    }
+}
+@media only screen and (min-width: 588px) and (max-width: 971px) and (max-device-width: 100000px) {
+    .cookie-policy .close-cookie-policy {
+        width: calc((100% - 156px)/12*4 + 36px)
+    }
+}
+@media only screen and (min-width: 972px),
+only screen and (min-device-width: 100000px) {
+    .cookie-policy .close-cookie-policy {
+        width: calc((100% - 300px)/24*6 + 60px)
+    }
+}
+button {
+    padding: 0
+}
+.button,
+.button-icon,
+.icon,
+.icon-large {
+    display: inline-block;
+    vertical-align: top
+}
+.button,
+.button-icon {
+    box-sizing: border-box
+}
+@media only screen and (max-width: 1024px) and (max-device-width: 100000px) {
+    .button,
+    .button-icon {
+        height: 44px
+    }
+}
+@media only screen and (min-width: 1025px),
+only screen and (min-device-width: 100000px) {
+    .button,
+    .button-icon {
+        height: 44px
+    }
+}
+.button {
+    overflow: hidden;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-align: center;
+    white-space: nowrap
+}
+a.button {
+    text-align: center
+}
+.tab-heading {
+    margin: 0
+}
+@media only screen and (max-width: 683px) and (max-device-width: 100000px) {
+    .tab-heading {
+        width: 118px
+    }
+}
+@media only screen and (min-width: 684px),
+only screen and (min-device-width: 100000px) {
+    .tab-heading {
+        width: 174px
+    }
+}
+.tab-heading:not(.selected) {
+    cursor: pointer
+}
+.icons {
+    display: none
+}
+.button-icon svg,
+.icon svg,
+.icon-large svg,
+.toggle svg {
+    pointer-events: none
+}
+.button-icon svg,
+.icon svg,
+.toggle svg {
+    height: 36px;
+    width: 36px
+}
+@-moz-document url-prefix() {
+    .button-icon svg, .icon svg, .toggle svg {
+        margin: -1px 0 0 -2px
+    }
+}
+.button-icon {
+    padding: 0;
+    text-align: left
+}
+@media only screen and (max-width: 1024px) and (max-device-width: 100000px) {
+    .button-icon {
+        width: 44px
+    }
+}
+@media only screen and (min-width: 1025px),
+only screen and (min-device-width: 100000px) {
+    .button-icon {
+        width: 44px
+    }
+}
+.icon {
+    height: 36px;
+    width: 36px
+}
+.icon-large {
+    height: 52px;
+    width: 52px
+}
+.icon-large svg {
+    height: 52px;
+    width: 52px
+}
+.toggle {
+    display: block;
+    line-height: 44px;
+    margin: 12px auto;
+    white-space: nowrap
+}
+.toggle svg {
+    margin-top: 4px;
+    vertical-align: top
+}
+.toggle.toggle-active svg {
+    transform: rotate(90deg)
+}
+.tile {
+    float: left;
+    list-style: none;
+    margin: 0 0 12px 12px
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    .tile {
+        width: calc((100% - 36px)/2)
+    }
+    .tile.wide {
+        width: calc((100% - 24px)/1)
+    }
+    .tile .message,
+    .tile .responsive-img-holder {
+        height: 84px
+    }
+    .tile.wide .message,
+    .tile.wide .responsive-img-holder {
+        height: 132px
+    }
+    .tile.tall .message,
+    .tile.tall .responsive-img-holder {
+        height: 180px
+    }
+}
+@media only screen and (min-width: 444px) and (max-width: 587px) and (max-device-width: 100000px) {
+    .tile {
+        width: calc((100% - 60px)/4)
+    }
+    .tile.wide {
+        width: calc((100% - 36px)/2)
+    }
+    .tile .message,
+    .tile .responsive-img-holder {
+        height: 60px
+    }
+    .tile.wide .message,
+    .tile.wide .responsive-img-holder {
+        height: 96px
+    }
+    .tile.tall .message,
+    .tile.tall .responsive-img-holder {
+        height: 132px
+    }
+}
+@media only screen and (min-width: 588px) and (max-width: 683px) and (max-device-width: 100000px) {
+    .tile {
+        width: calc((100% - 60px)/4)
+    }
+    .tile.wide {
+        width: calc((100% - 36px)/2)
+    }
+    .tile .message,
+    .tile .responsive-img-holder {
+        height: 84px
+    }
+    .tile.wide .message,
+    .tile.wide .responsive-img-holder {
+        height: 132px
+    }
+    .tile.tall .message,
+    .tile.tall .responsive-img-holder {
+        height: 180px
+    }
+}
+@media only screen and (min-width: 684px) and (max-width: 971px) and (max-device-width: 100000px) {
+    .tile {
+        width: calc((100% - 60px)/4)
+    }
+    .tile.wide {
+        width: calc((100% - 36px)/2)
+    }
+    .tile .message,
+    .tile .responsive-img-holder {
+        height: 100px
+    }
+    .tile.wide .message,
+    .tile.wide .responsive-img-holder {
+        height: 156px
+    }
+    .tile.tall .message,
+    .tile.tall .responsive-img-holder {
+        height: 212px
+    }
+}
+@media only screen and (min-width: 972px),
+only screen and (min-device-width: 100000px) {
+    .tile {
+        width: calc((100% - 60px)/4)
+    }
+    .tile.wide {
+        width: calc((100% - 36px)/2)
+    }
+    .tile .message,
+    .tile .responsive-img-holder {
+        height: 148px
+    }
+    .tile.wide .message,
+    .tile.wide .responsive-img-holder {
+        height: 228px
+    }
+    .tile.tall .message,
+    .tile.tall .responsive-img-holder {
+        height: 308px
+    }
+}
+@media only screen and (min-width: 444px),
+only screen and (min-device-width: 100000px) {
+    .section-inline .tile {
+        width: calc((100% - 24px)/2)
+    }
+    .section-inline .tile.wide {
+        width: calc((100% - 12px)/1)
+    }
+}
+.tile .message {
+    overflow: hidden
+}
+.tile a {
+    display: block
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    .game-info-image-container .responsive-img-holder {
+        height: 180px
+    }
+}
+@media only screen and (min-width: 444px) and (max-width: 587px) and (max-device-width: 100000px) {
+    .game-info-image-container .responsive-img-holder {
+        height: 132px
+    }
+}
+@media only screen and (min-width: 588px) and (max-width: 683px) and (max-device-width: 100000px) {
+    .game-info-image-container .responsive-img-holder {
+        height: 180px
+    }
+}
+@media only screen and (min-width: 684px) and (max-width: 971px) and (max-device-width: 100000px) {
+    .game-info-image-container .responsive-img-holder {
+        height: 212px
+    }
+}
+@media only screen and (min-width: 972px),
+only screen and (min-device-width: 100000px) {
+    .game-info-image-container .responsive-img-holder {
+        height: 308px
+    }
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    .sitewide-jackpot-overlay-content .responsive-img-holder,
+    .promotion-tile .responsive-img-holder {
+        height: 276px
+    }
+}
+@media only screen and (min-width: 444px) and (max-width: 587px) and (max-device-width: 100000px) {
+    .sitewide-jackpot-overlay-content .responsive-img-holder,
+    .promotion-tile .responsive-img-holder {
+        height: 204px
+    }
+}
+@media only screen and (min-width: 588px) and (max-width: 683px) and (max-device-width: 100000px) {
+    .sitewide-jackpot-overlay-content .responsive-img-holder,
+    .promotion-tile .responsive-img-holder {
+        height: 276px
+    }
+}
+@media only screen and (min-width: 684px) and (max-width: 971px) and (max-device-width: 100000px) {
+    .sitewide-jackpot-overlay-content .responsive-img-holder,
+    .promotion-tile .responsive-img-holder {
+        height: 324px
+    }
+}
+@media only screen and (min-width: 972px),
+only screen and (min-device-width: 100000px) {
+    .sitewide-jackpot-overlay-content .responsive-img-holder,
+    .promotion-tile .responsive-img-holder {
+        height: 468px
+    }
+}
+.sitewide-jackpot-overlay-content .responsive-img-holder,
+.promotion-tile .responsive-img-holder {
+    width: 100%
+}
+.promotion .sitewide-jackpot-overlay-content,
+.promotion .promotion-tile {
+    display: inline
+}
+.responsive-img-holder {
+    overflow: hidden;
+    position: relative
+}
+.responsive-img-holder>img {
+    height: 100%;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    width: auto
+}
+.no-csscalc .banners,
+.no-csscalc .personal-space-games,
+.no-csscalc .game-info-details-container,
+.no-csscalc .game-list-container {
+    margin: 0 auto
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    .no-csscalc .banners,
+    .no-csscalc .personal-space-games,
+    .no-csscalc .game-info-details-container,
+    .no-csscalc .game-list-container {
+        width: 320px
+    }
+}
+@media only screen and (min-width: 444px) and (max-width: 587px) and (max-device-width: 100000px) {
+    .no-csscalc .banners,
+    .no-csscalc .personal-space-games,
+    .no-csscalc .game-info-details-container,
+    .no-csscalc .game-list-container {
+        width: 444px
+    }
+}
+@media only screen and (min-width: 588px) and (max-width: 683px) and (max-device-width: 100000px) {
+    .no-csscalc .banners,
+    .no-csscalc .personal-space-games,
+    .no-csscalc .game-list-container {
+        width: 588px
+    }
+}
+@media only screen and (min-width: 684px) and (max-width: 971px) and (max-device-width: 100000px) {
+    .no-csscalc .banners,
+    .no-csscalc .personal-space-games,
+    .no-csscalc .game-list-container {
+        width: 684px
+    }
+}
+@media only screen and (min-width: 972px),
+only screen and (min-device-width: 100000px) {
+    .no-csscalc .banners,
+    .no-csscalc .personal-space-games,
+    .no-csscalc .game-list-container {
+        width: 972px
+    }
+}
+@media only screen and (min-width: 588px) and (max-width: 683px) and (max-device-width: 100000px) {
+    .no-csscalc .game-info-details-container {
+        width: 360px
+    }
+}
+@media only screen and (min-width: 684px) and (max-width: 971px) and (max-device-width: 100000px) {
+    .no-csscalc .game-info-details-container {
+        width: 420px
+    }
+}
+@media only screen and (min-width: 972px),
+only screen and (min-device-width: 100000px) {
+    .no-csscalc .game-info-details-container {
+        width: 480px
+    }
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    .no-csscalc .game-info-details-container .toggle,
+    .no-csscalc .game-info-details-container .bet-amount {
+        margin: 0 8px
+    }
+}
+@media only screen and (min-width: 588px) and (max-width: 683px) and (max-device-width: 100000px) {
+    .no-csscalc .game-info-details-container .toggle,
+    .no-csscalc .game-info-details-container .bet-amount {
+        margin: 0 16px
+    }
+}
+.no-csscalc .game-info-details-container .game-details dl {
+    text-align: center
+}
+.no-csscalc .game-info-details-container .game-details dd {
+    margin-right: 12px
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    .no-csscalc .tile {
+        width: 142px
+    }
+    .no-csscalc .tile.wide {
+        width: 296px
+    }
+}
+@media only screen and (min-width: 444px) and (max-width: 587px) and (max-device-width: 100000px) {
+    .no-csscalc .tile {
+        width: 96px
+    }
+    .no-csscalc .tile.wide {
+        width: 204px
+    }
+}
+@media only screen and (min-width: 588px) and (max-width: 683px) and (max-device-width: 100000px) {
+    .no-csscalc .tile {
+        width: 132px
+    }
+    .no-csscalc .tile.wide {
+        width: 276px
+    }
+}
+@media only screen and (min-width: 684px) and (max-width: 971px) and (max-device-width: 100000px) {
+    .no-csscalc .tile {
+        width: 156px
+    }
+    .no-csscalc .tile.wide {
+        width: 324px
+    }
+}
+@media only screen and (min-width: 972px),
+only screen and (min-device-width: 100000px) {
+    .no-csscalc .tile {
+        width: 228px
+    }
+    .no-csscalc .tile.wide {
+        width: 468px
+    }
+}
+@media only screen and (max-width: 587px) and (max-device-width: 100000px) {
+    .no-csscalc .form-login fieldset,
+    .no-csscalc .form-login .error-message {
+        width: 276px
+    }
+}
+@media only screen and (min-width: 588px),
+only screen and (min-device-width: 100000px) {
+    .no-csscalc .form-login fieldset,
+    .no-csscalc .form-login .error-message {
+        width: 324px
+    }
+}
+.no-csscalc .form-login-links li {
+    margin: 24px
+}
+@media only screen and (min-width: 972px),
+only screen and (min-device-width: 100000px) {
+    .no-csscalc .social,
+    .no-csscalc .trustmarks {
+        display: inline-block;
+        width: 50%
+    }
+}
+.no-csscalc .toolbar-secondary {
+    float: right;
+    margin-right: 12px
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    .no-csscalc .menubar-acquisition [role=menuitem] {
+        box-sizing: border-box;
+        margin: 0;
+        width: 50%
+    }
+}
+.no-csscalc .balance:not(.demo) {
+    padding-left: 14px
+}
+.no-csscalc .play-buttons .button {
+    min-width: 150px
+}
+.demo-play,
+.real-play {
+    height: 101%;
+    width: 100%
+}
+.fullscreen-overlay .mask {
+    display: none;
+    height: 10000px;
+    left: 0;
+    position: relative;
+    width: 100%;
+    z-index: 8
+}
+.demo-play .fullscreen-overlay .mask,
+.real-play .fullscreen-overlay .mask {
+    display: block
+}
+.personal-space-open .fullscreen-overlay {
+    display: none
+}
+.fullscreen-overlay.hidden {
+    position: fixed;
+    visibility: hidden
+}
+.fullscreen-overlay .action-title {
+    left: 0;
+    line-height: 28px;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    top: calc(50% + 66px);
+    z-index: 8
+}
+.fullscreen-overlay .drag,
+.fullscreen-overlay .tap {
+    position: fixed;
+    z-index: 8
+}
+.fullscreen-overlay .drag {
+    height: 44px;
+    left: calc(50% - 22px);
+    top: calc(50% + 22px);
+    width: 44px
+}
+.fullscreen-overlay .tap {
+    height: 44px;
+    left: calc(50% - 22px);
+    top: calc(50% - 22px);
+    width: 44px
+}
+.external-content iframe {
+    height: 100%;
+    width: 100%
+}
+.clock {
+    padding: 4px;
+    pointer-events: none
+}
+.lobby-clock-container {
+    bottom: 0;
+    margin: 0 12px;
+    position: fixed;
+    right: 0;
+    z-index: 10
+}
+@media only screen and (max-width: 359px) and (max-device-width: 100000px) {
+    .lobby-clock-container {
+        display: none
+    }
+}
+.lobby-clock-container .clock {
+    height: 16px
+}
+.igt-clock-container {
+    left: 72px;
+    position: absolute;
+    top: 10px;
+    z-index: 10
+}
+.tile .sash {
+    height: 24px;
+    left: 0;
+    line-height: 24px;
+    padding: 0 12px;
+    position: absolute;
+    top: 0;
+    z-index: 1
+}
+.tile .sash .sash-icon {
+    max-height: 20px;
+    max-width: 20px;
+    padding-right: 8px
+}
+.touchable {
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+
+    transition: transform 350ms ease-out!important
+}
+.touchable.touching {
+    transform: scale(.975) translateZ(0)
+}
+.tile .touchable {
+    display: block
+}
+.touch-effect,
+.click-effect {
+    animation: touchable-effect-enter 350ms ease-out forwards;
+    background: rgba(255, 255, 255, .3);
+    border-radius: 50%;
+    opacity: 0;
+    pointer-events: none;
+    position: absolute
+}
+.effect-exit .touch-effect,
+.effect-exit .click-effect {
+    animation: touchable-effect-exit 350ms ease-out
+}
+.tile .touch-effect,
+.tile .click-effect {
+    background: rgba(0, 0, 0, .3)
+}
+.button,
+.button-icon,
+.icon-text,
+.tab-heading,
+.toggle,
+.toolbar,
+[role=menuitem],
+.tile {
+    user-select: none
+}
+.textbox {
+}
+select:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 currentColor
+}
+select::-ms-expand {
+    display: none
+}
+body {
+    color: #818181;
+    font-family: "Alegreya Sans", sans-serif
+}
+.root.real-play .toolbar-primary a,
+.root.real-play .toolbar-secondary a,
+.root.demo-play .toolbar-primary a,
+.root.demo-play .toolbar-secondary a {
+    color: #fff
+}
+.root.real-play .toolbar-primary .button-icon svg,
+.root.real-play .toolbar-secondary .button-icon svg,
+.root.demo-play .toolbar-primary .button-icon svg,
+.root.demo-play .toolbar-secondary .button-icon svg {
+    color: #fff;
+    fill: #fff
+}
+.root.show-overflow-menu .button-overflow svg,
+.root.personal-space-open .toolbar .button-personal-space svg {
+    color: rgba(255, 255, 255, .5);
+    fill: rgba(255, 255, 255, .5)
+}
+.root .clock {
+    background-color: rgba(0, 0, 0, .5);
+    color: #fff
+}
+.page::after {
+    background: rgba(0, 0, 0, .9);
+    opacity: 0;
+    transition: opacity 500ms, height 0 500ms
+}
+.show-overflow-menu .page::after {
+    height: 100%;
+    transition: none
+}
+.real-play.personal-space-open .page::after,
+.demo-play.personal-space-open .page::after {
+    height: 100%;
+    opacity: 1;
+    transition: opacity 500ms 500ms
+}
+a:hover,
+a:focus {
+    text-decoration: none
+}
+a:not(.button) {
+    color: inherit;
+    transition: color 150ms
+}
+::selection {
+    background: #c00;
+    color: #fff;
+    opacity: 1
+}
+h3 {
+    font-size: 20px;
+    line-height: 24px
+}
+table.border {
+    border-color: currentColor
+}
+table.border,
+table.border thead,
+table.border tfoot,
+table.border th,
+table.border td {
+    border-style: solid
+}
+table.border,
+table.border thead,
+table.border tfoot {
+    border-width: 2px
+}
+table.border th,
+table.border td {
+    border-width: 0 1px 1px;
+    padding: 4px 4px 3px
+}
+table.border tr:last-child th,
+table.border tr:last-child td {
+    padding: 3px 4px
+}
+table.center-text,
+thead.center-text,
+tbody.center-text,
+tfoot.center-text,
+tr.center-text,
+th.center-text,
+td.center-text {
+    text-align: center
+}
+input[type=checkbox]+label::before,
+input[type=radio]+label::before,
+select,
+.textbox {
+    transition: background-color 150ms, border-color 150ms
+}
+input[type=checkbox],
+input[type=radio] {
+    opacity: 0;
+    width: 44px
+}
+input[type=checkbox]+label,
+input[type=radio]+label {
+    position: relative
+}
+input[type=checkbox]+label::before,
+input[type=radio]+label::before {
+    background-color: transparent;
+    border: rgba(255, 255, 255, .5) solid 0;
+    box-shadow: inset 0 0 0 4px 4px transparent;
+    box-sizing: border-box;
+    content: "";
+    left: -56px;
+    position: absolute;
+    width: 44px
+}
+@media only screen and (max-width: 1024px) and (max-device-width: 100000px) {
+    input[type=checkbox]+label::before,
+    input[type=radio]+label::before {
+        height: 44px;
+        top: calc(50% - 44px/2)
+    }
+}
+@media only screen and (min-width: 1025px),
+only screen and (min-device-width: 100000px) {
+    input[type=checkbox]+label::before,
+    input[type=radio]+label::before {
+        height: 44px;
+        top: calc(50% - 44px/2)
+    }
+}
+html[class*="touchevents"] input[type="checkbox"]:active+label::before,
+html[class*="touchevents"] input[type="radio"]:active+label::before {
+    background-color: transparent
+}
+input[type=checkbox]:checked+label::before,
+input[type=radio]:checked+label::before {
+    background-color: #33f;
+    border-color: #33f
+}
+input[type=checkbox]+label::before {
+    background-origin: border-box;
+    border-radius: 6px
+}
+input[type=checkbox]:checked+label::before {
+    background-image: url(images/check.svg)
+}
+input[type=radio]+label::before {
+    border-radius: 50%
+}
+select,
+.mask-placeholder,
+.textbox {
+    padding-left: 10px
+}
+select,
+.textbox {
+    border: rgba(255, 255, 255, .5) solid 2px;
+    border-radius: 6px
+}
+@media only screen and (min-width: 684px),
+only screen and (min-device-width: 100000px) {
+    select,
+    .textbox {
+        font-size: 20px
+    }
+}
+html.no-touchevents select:hover,
+html.no-touchevents .textbox:hover {
+    border-color: #fff
+}
+html[class*=touchevents] select:focus,
+html[class*=touchevents] select.focus,
+html[class*=touchevents] .textbox:focus,
+html[class*=touchevents] .textbox.focus {
+    background-color: transparent;
+    border-color: #fff
+}
+html[class*=touchevents] select:active,
+html[class*=touchevents] .textbox:active {
+    border-color: #fff
+}
+select.highlight,
+.textbox.highlight {
+    animation: field-pulse 4 linear 500ms 1s
+}
+.mask-placeholder,
+.textbox {
+    padding-right: 10px
+}
+select {
+    appearance: none;
+    background: url(images/select.svg);
+    padding-right: 22px
+}
+@media only screen and (max-width: 1024px) and (max-device-width: 100000px) {
+    label.textbox,
+    span.textbox {
+        line-height: 40px
+    }
+}
+@media only screen and (min-width: 1025px),
+only screen and (min-device-width: 100000px) {
+    label.textbox,
+    span.textbox {
+        line-height: 40px
+    }
+}
+label.textbox input,
+span.textbox input {
+    background-color: transparent;
+    transition: background-color 150ms
+}
+::-moz-placeholder {
+    color: rgba(255, 255, 255, .5);
+    opacity: 1
+}
+:-ms-input-placeholder {
+    color: rgba(255, 255, 255, .5)
+}
+.field-delim,
+.mask-placeholder {
+    color: rgba(255, 255, 255, .5)
+}
+.field-item.required .field-label::after {
+    color: #f00;
+    content: "*"
+}
+@media only screen and (max-width: 683px) and (max-device-width: 100000px) {
+    .field-container input+label:only-of-type {
+        width: calc(100% - 44px - 12px - 36px)
+    }
+}
+@media only screen and (min-width: 684px),
+only screen and (min-device-width: 100000px) {
+    .field-container input+label:only-of-type {
+        width: 136px
+    }
+}
+@media only screen and (max-width: 683px) and (max-device-width: 100000px) {
+    .field-container input+label:first-of-type:nth-last-of-type(2),
+    .field-container input+label:first-of-type:nth-last-of-type(2)~label {
+        width: calc((100% - 44px*2 - 12px*3 - 36px)/2)
+    }
+}
+@media only screen and (min-width: 684px),
+only screen and (min-device-width: 100000px) {
+    .field-container input+label:first-of-type:nth-last-of-type(2),
+    .field-container input+label:first-of-type:nth-last-of-type(2)~label {
+        width: 34px
+    }
+}
+@media only screen and (max-width: 683px) and (max-device-width: 100000px) {
+    .field-container input+label:first-of-type:nth-last-of-type(3),
+    .field-container input+label:first-of-type:nth-last-of-type(3)~label {
+        width: calc((100% - 44px*3 - 12px*4 - 36px)/3)
+    }
+}
+@media only screen and (min-width: 684px),
+only screen and (min-device-width: 100000px) {
+    .field-container input+label:first-of-type:nth-last-of-type(3),
+    .field-container input+label:first-of-type:nth-last-of-type(3)~label {
+        width: 4px
+    }
+}
+.field-container [role=status] {
+    background: #eee;
+    display: block;
+    font-size: 12px;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: opacity 150ms
+}
+.field-container [role=status] ul {
+    list-style: none;
+    padding: 10px
+}
+.field-container [role=status] li {
+    padding-left: 24px;
+    position: relative
+}
+.field-container [role=status] li::before {
+    border-radius: 50%;
+    box-sizing: border-box;
+    content: "";
+    height: 10px;
+    left: 1px;
+    position: absolute;
+    top: 5px;
+    transition: background-color 150ms, border-color 150ms;
+    width: 10px
+}
+.field-container [role=status] li:not(.valid):not(.invalid)::before {
+    background: transparent;
+    border: 2px solid #33f
+}
+.field-container [role=status] li.valid::before {
+    background: green
+}
+.field-container [role=status] li.invalid::before {
+    background: #f00
+}
+.submitted input[type=checkbox]:valid+label:last-of-type,
+.submitted input[type=checkbox]:invalid+label:last-of-type,
+.submitted input[type=radio]:valid+label:last-of-type,
+.submitted input[type=radio]:invalid+label:last-of-type,
+.field-item.invalid input[type=checkbox]:valid+label:last-of-type,
+.field-item.invalid input[type=checkbox]:invalid+label:last-of-type,
+.field-item.invalid input[type=radio]:valid+label:last-of-type,
+.field-item.invalid input[type=radio]:invalid+label:last-of-type {
+    padding-right: 36px
+}
+.submitted input[type=checkbox]:valid+label:last-of-type,
+.submitted input[type=radio]:valid+label:last-of-type,
+.field-item.invalid input[type=checkbox]:valid+label:last-of-type,
+.field-item.invalid input[type=radio]:valid+label:last-of-type {
+    background: url(images/valid.svg)
+}
+.submitted input[type=checkbox]:invalid+label:last-of-type,
+.submitted input[type=radio]:invalid+label:last-of-type,
+.field-item.invalid input[type=checkbox]:invalid+label:last-of-type,
+.field-item.invalid input[type=radio]:invalid+label:last-of-type {
+    background: url(images/invalid.svg)
+}
+.submitted select:valid:focus,
+.submitted select:valid.focus,
+.submitted .textbox:valid:focus,
+.submitted .textbox:valid.focus,
+.field-item.invalid select:valid:focus,
+.field-item.invalid select:valid.focus,
+.field-item.invalid .textbox:valid:focus,
+.field-item.invalid .textbox:valid.focus {
+    background-color: #efe;
+    border-color: green
+}
+.submitted select:invalid,
+.submitted .textbox:invalid,
+.field-item.invalid select:invalid,
+.field-item.invalid .textbox:invalid {
+    background-color: #fee;
+    border-color: #f00
+}
+.submitted select,
+.field-item.invalid select {
+    background-position: right 36px center, right;
+    padding-right: 58px
+}
+.submitted select:valid,
+.field-item.invalid select:valid {
+    background: url(images/select.svg), url(images/valid.svg)
+}
+.submitted select:invalid,
+.field-item.invalid select:invalid {
+    background: url(images/select.svg), url(images/invalid.svg)
+}
+.submitted .textbox,
+.field-item.invalid .textbox {
+    padding-right: 34px
+}
+.submitted .textbox:valid,
+.field-item.invalid .textbox:valid {
+    background: url(images/valid.svg)
+}
+.submitted .textbox:invalid,
+.field-item.invalid .textbox:invalid {
+    background: url(images/invalid.svg)
+}
+.field-item.invalid label.textbox,
+.field-item.invalid span.textbox {
+    background: url(images/invalid.svg);
+    background-color: #fee;
+    border-color: #f00;
+    padding-right: 34px
+}
+.submitted .field-item:not(.invalid) label.textbox,
+.submitted .field-item:not(.invalid) span.textbox {
+    background: url(images/valid.svg);
+    padding-right: 34px
+}
+.form-errors {
+    background: #fee;
+    opacity: 0;
+    transition: opacity 150ms
+}
+.form-errors:not(:empty) {
+    border: #f00 solid 2px;
+    opacity: 1;
+    padding: 10px
+}
+.form-errors>p {
+    font-weight: 700
+}
+.textbox {
+    background: transparent;
+    color: #fff
+}
+.textbox[name=username],
+.textbox[name=password] {
+    background: linear-gradient(90deg, rgba(255, 255, 255, .5), rgba(255, 255, 255, .5) 44px, transparent 44px, transparent) no-repeat padding-box;
+    padding-left: 56px
+}
+.textbox[name=username]~.field-decoration,
+.textbox[name=password]~.field-decoration {
+    background: url(images/icons.svg) no-repeat;
+    bottom: 0;
+    height: 44px;
+    left: 2px;
+    position: absolute;
+    top: 0;
+    width: 44px
+}
+.textbox[name=username]~button svg,
+.textbox[name=password]~button svg {
+    color: #fff;
+    fill: #fff
+}
+html[class*="touchevents"] .textbox[name="username"]~button:active svg,
+html[class*="touchevents"] .textbox[name="password"]~button:active svg {
+    color: rgba(255, 255, 255, .5);
+    fill: rgba(255, 255, 255, .5)
+}
+@media only screen and (max-width: 1024px) and (max-device-width: 100000px) {
+    .textbox[name=username]~.field-decoration {
+        background-position: center -8px, left
+    }
+    html.no-touchevents .textbox[name=username]:hover~.field-decoration {
+        background-position: center -68px, left
+    }
+    html[class*="touchevents"] .textbox[name="username"]:focus~.field-decoration {
+        background-position: center -128px, left
+    }
+}
+@media only screen and (min-width: 1025px),
+only screen and (min-device-width: 100000px) {
+    .textbox[name=username]~.field-decoration {
+        background-position: center -8px, left
+    }
+    html.no-touchevents .textbox[name=username]:hover~.field-decoration {
+        background-position: center -68px, left
+    }
+    html[class*="touchevents"] .textbox[name="username"]:focus~.field-decoration {
+        background-position: center -128px, left
+    }
+}
+@media only screen and (max-width: 1024px) and (max-device-width: 100000px) {
+    .textbox[name=password]~.field-decoration {
+        background-position: center -188px, left
+    }
+    html.no-touchevents .textbox[name=password]:hover~.field-decoration {
+        background-position: center -248px, left
+    }
+    html[class*="touchevents"] .textbox[name="password"]:focus~.field-decoration {
+        background-position: center -308px, left
+    }
+}
+@media only screen and (min-width: 1025px),
+only screen and (min-device-width: 100000px) {
+    .textbox[name=password]~.field-decoration {
+        background-position: center -188px, left
+    }
+    html.no-touchevents .textbox[name=password]:hover~.field-decoration {
+        background-position: center -248px, left
+    }
+    html[class*="touchevents"] .textbox[name="password"]:focus~.field-decoration {
+        background-position: center -308px, left
+    }
+}
+button {
+    appearance: none;
+    background: transparent;
+    border: none 0
+}
+.button,
+.button-icon {
+    transition-duration: 150ms;
+
+}
+.button {
+    background: #666;
+    border: rgba(255, 255, 255, .5) solid 2px;
+    border-radius: 6px;
+    color: #fff;
+    line-height: 40px;
+    padding-left: 10px;
+    padding-right: 10px
+}
+@media only screen and (min-width: 684px),
+only screen and (min-device-width: 100000px) {
+    .button {
+        font-size: 20px
+    }
+}
+html[class*=touchevents] .button:active {
+    color: rgba(255, 255, 255, .5)
+}
+.button[role=menuitem] {
+    background: transparent;
+    border-color: transparent;
+    color: #fff
+}
+html.no-touchevents .button[role=menuitem]:hover {
+    background: rgba(255, 255, 255, .3)
+}
+html[class*="touchevents"] .button[role="menuitem"]:active {
+    color: rgba(255, 255, 255, .5)
+}
+a.button {
+    text-decoration: none
+}
+.button-deposit,
+.button-deposit[role=menuitem],
+.button-cta {
+    background: #502777;
+    border: #502777 solid 2px
+}
+form:valid .button-login,
+form.valid .button-login,
+.button-play,
+.cookie-policy .button {
+    background: #59a822;
+    border: #b4e88f solid 2px
+}
+form:invalid .button-login,
+form.invalid .button-login {
+    background: rgba(255, 255, 255, .3);
+    border: #fff solid 2px;
+    cursor: default
+}
+form:valid .button-login,
+form.valid .button-login {
+    animation: button-login-valid 600ms ease-in
+}
+.game-info-container .button-demo {
+    background: rgba(255, 255, 255, .3);
+    border: #fff solid 2px
+}
+@media only screen and (min-width: 684px),
+only screen and (min-device-width: 100000px) {
+    .button-login-large,
+    .button-personal-space {
+        overflow: visible;
+        position: relative
+    }
+    .button-login-large::after,
+    .button-personal-space::after {
+        bottom: -26px;
+        transition: border-color 150ms
+    }
+    .root:not(.show-personal-space) .button-login-large::after,
+    .root:not(.show-personal-space) .button-personal-space::after {
+        border-bottom-color: transparent
+    }
+}
+.tab-heading,
+.header .button-deposit {
+    height: 28px;
+    line-height: 24px
+}
+.balance+.button-deposit,
+.tab-heading:not(:first-of-type) {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0
+}
+.tab-heading {
+    font-weight: 400
+}
+@media only screen and (max-width: 683px) and (max-device-width: 100000px) {
+    .tab-heading {
+        font-size: 16px
+    }
+}
+@media only screen and (min-width: 684px),
+only screen and (min-device-width: 100000px) {
+    .tab-heading {
+        font-size: 16px
+    }
+}
+.tab-heading:not(:last-of-type) {
+    border-bottom-right-radius: 0;
+    border-right: 0;
+    border-top-right-radius: 0
+}
+html.no-touchevents .tab-heading.selected:hover,
+html[class*=touchevents] .tab-heading.selected:active {
+    background: #666;
+    color: #fff
+}
+.tab-heading:not(.selected) {
+    background: none;
+    border-color: #666;
+    color: #666
+}
+html[class*=touchevents] .tab-heading:not(.selected):active {
+    color: rgba(255, 255, 255, .5)
+}
+html.no-touchevents [role=contentinfo] .tab-heading.selected:hover,
+html[class*="touchevents"] [role="contentinfo"] .tab-heading.selected:active {
+    background: rgba(255, 255, 255, .3)
+}
+[role=contentinfo] .tab-heading:not(.selected) {
+    background: none;
+    border-color: rgba(255, 255, 255, .3);
+    color: rgba(255, 255, 255, .3)
+}
+.button-icon svg,
+.icon svg,
+.icon-large svg,
+.toggle svg {
+    color: currentColor;
+    fill: currentColor;
+    transition: fill 150ms, stroke 150ms
+}
+.button-icon {
+    border: 4px solid transparent;
+    border-radius: 6px;
+    overflow: hidden
+}
+@media only screen and (max-width: 1024px) and (max-device-width: 100000px) {
+    .button-icon svg {
+        margin: 0
+    }
+}
+@media only screen and (min-width: 1025px),
+only screen and (min-device-width: 100000px) {
+    .button-icon svg {
+        margin: 0
+    }
+}
+html[class*=touchevents] .button-icon:active svg {
+    color: rgba(255, 255, 255, .5);
+    fill: rgba(255, 255, 255, .5)
+}
+.button-icon[role=menuitem] {
+    background: transparent
+}
+.button-icon[role=menuitem] svg {
+    color: #fff;
+    fill: #fff
+}
+html.no-touchevents .button-icon[role=menuitem]:hover {
+    background: rgba(255, 255, 255, .3)
+}
+html[class*="touchevents"] .button-icon[role="menuitem"]:active svg {
+    color: rgba(255, 255, 255, .5);
+    fill: rgba(255, 255, 255, .5)
+}
+.button-icon.overlay-button-close svg {
+    color: #fff;
+    fill: #fff
+}
+[role=menuitem] .icon-text svg {
+    color: #fff;
+    fill: #fff
+}
+html[class*="touchevents"] [role="menuitem"] .icon-text:active svg {
+    color: rgba(255, 255, 255, .5);
+    fill: rgba(255, 255, 255, .5)
+}
+.overlay-button-close,
+.light-layout-button-close,
+.dialog-overlay>.button-icon,
+.button-personal-space-close {
+    border-radius: 6px
+}
+[class*=light-layout-button-] svg {
+    color: currentColor;
+    fill: currentColor
+}
+.toggle svg {
+
+    transition: transform 350ms
+}
+.content-box {
+    font-size: 12px;
+    line-height: 16px;
+    padding: 19px 0;
+    text-align: center
+}
+.button[role=menuitem],
+.button-icon {
+    background-clip: padding-box!important
+}
+.button[role=menuitem]:not(.button-deposit) {
+    border-radius: 8px
+}
+.button-icon {
+    border-radius: 10px
+}
+.menubar-main {
+    background: linear-gradient(90deg, #c71b16, #502777) #c00;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .75);
+    transition: top 350ms ease-in-out
+}
+.real-play .menubar-main,
+.demo-play .menubar-main {
+    background: #000
+}
+.menubar-acquisition {
+    background: linear-gradient(90deg, #c71b16, #502777) #c00
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    .header,
+    .menu-bar-bottom {
+
+        transition: transform 350ms ease-in-out
+    }
+    .header.header-hidden {
+        transform: translateY(-44px)
+    }
+    .logged-out .menu-bar-bottom-hidden {
+        transform: translateY(44px)
+    }
+}
+.menu-overflow {
+    background: #000;
+    box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, .6);
+    color: #fff;
+    font-family: "Alegreya Sans", sans-serif;
+    font-style: normal;
+
+    transition: transform 350ms
+}
+@media only screen and (max-width: 1024px) and (max-device-width: 100000px) {
+    .menu-overflow::after {
+        border: transparent solid 12px;
+        content: "";
+        position: absolute;
+        right: 10px;
+        border-bottom-color: #000;
+        top: -24px
+    }
+}
+@media only screen and (min-width: 1025px),
+only screen and (min-device-width: 100000px) {
+    .menu-overflow::after {
+        border: transparent solid 12px;
+        content: "";
+        position: absolute;
+        right: 10px;
+        border-bottom-color: #000;
+        top: -24px
+    }
+}
+.menu-overflow .icon-text {
+    border: 0;
+    text-decoration: none
+}
+.menu-overflow a:not(.button) {
+    color: #fff
+}
+.button-menu {
+    position: relative
+}
+.button-menu svg {
+    animation-timing-function: ease-in-out;
+    height: 4px;
+    left: 7px;
+    position: absolute;
+    width: 22px
+}
+.button-menu svg:nth-child(1) {
+    top: 7px
+}
+.button-menu svg:nth-child(2) {
+    top: 15px
+}
+.button-menu svg:nth-child(3) {
+    top: 23px
+}
+.show-menu .button-menu svg {
+    animation: 350ms normal
+}
+.show-menu .button-menu svg:nth-child(1) {
+    animation-name: menu-toggle-top-close;
+    transform: translateY(8px) rotate(135deg)
+}
+.show-menu .button-menu svg:nth-child(2) {
+    animation-name: menu-toggle-middle-close;
+    opacity: 0;
+    transform: rotate(90deg)
+}
+.show-menu .button-menu svg:nth-child(3) {
+    animation-name: menu-toggle-bottom-close;
+    transform: translateY(-8px) rotate(45deg)
+}
+.root:not(.show-menu) .button-menu svg {
+    animation: 350ms reverse
+}
+.root:not(.show-menu) .button-menu svg:nth-child(1) {
+    animation-name: menu-toggle-top-open
+}
+.root:not(.show-menu) .button-menu svg:nth-child(2) {
+    animation-name: menu-toggle-middle-open
+}
+.root:not(.show-menu) .button-menu svg:nth-child(3) {
+    animation-name: menu-toggle-bottom-open
+}
+.balance {
+    background: #e2dae9;
+    border: transparent solid 2px;
+    color: #502777
+}
+@media only screen and (max-width: 683px) and (max-device-width: 100000px) {
+    .balance {
+        font-size: 16px
+    }
+}
+@media only screen and (min-width: 684px),
+only screen and (min-device-width: 100000px) {
+    .balance {
+        font-size: 20px
+    }
+}
+.balance[role=menuitem] {
+    line-height: 24px;
+    margin-top: 8px
+}
+.balance[role=menuitem]+.button-deposit {
+    margin-left: 0
+}
+.balance:not(.demo) {
+    border-bottom-left-radius: 6px;
+    border-right: 0;
+    border-top-left-radius: 6px;
+    padding-right: 14px
+}
+.balance.demo {
+    border-color: #502777;
+    border-radius: 6px;
+    padding: 0 10px
+}
+.balance.demo span {
+    text-align: center
+}
+.menu-main {
+    background: rgba(0, 0, 0, .9);
+
+    transition: transform 350ms
+}
+.menu-main a {
+    color: inherit;
+    text-decoration: none
+}
+.menu-main a:active {
+    color: rgba(255, 255, 255, .5)
+}
+.menu-main a:hover {
+    color: #fff
+}
+.menu-main .menu-title {
+    color: #fff
+}
+.menu-main .menu-title a {
+    font-size: 28px
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    .menu-main .menu-title a {
+        font-size: 20px
+    }
+}
+.menu-main ul {
+    color: #ababab;
+    font-size: 24px;
+
+    transition: transform 350ms
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    .menu-main ul {
+        font-size: 16px
+    }
+}
+.menu-main ul a {
+
+    transition: transform 500ms, opacity 350ms
+}
+.menu-main ul>li:nth-child(1)>.menu-item-label {
+
+    transition: transform 350ms, opacity 350ms
+}
+.menu-main ul>li:nth-child(2)>.menu-item-label {
+
+    transition: transform 408.333333ms, opacity 350ms
+}
+.menu-main ul>li:nth-child(3)>.menu-item-label {
+
+    transition: transform 466.666667ms, opacity 350ms
+}
+.menu-main ul>li:nth-child(4)>.menu-item-label {
+
+    transition: transform 525ms, opacity 350ms
+}
+.menu-main ul>li:nth-child(5)>.menu-item-label {
+
+    transition: transform 583.333333ms, opacity 350ms
+}
+.menu-main ul>li:nth-child(6)>.menu-item-label {
+
+    transition: transform 641.666667ms, opacity 350ms
+}
+.menu-main ul>li:nth-child(7)>.menu-item-label {
+
+    transition: transform 700ms, opacity 350ms
+}
+.menu-main ul svg {
+    transition: opacity 350ms
+}
+.menu-main ul[data-position=parent] {
+    transform: translateX(-100%)
+}
+.menu-main ul[data-position=parent] .menu-item-label,
+.menu-main ul[data-position=parent] svg {
+    opacity: 0
+}
+.menu-main ul[data-position=parent] .menu-item-label {
+    transform: translateX(-250px)
+}
+.menu-main ul[data-position=current] {
+    transform: translateX(0)
+}
+.menu-main ul[data-position=current] .menu-item-label,
+.menu-main ul[data-position=current] svg {
+    opacity: 1
+}
+.menu-main ul[data-position=current] .menu-item-label {
+    transform: translateX(0)
+}
+.menu-main ul[data-position=child] {
+    transform: translateX(100%)
+}
+.menu-main ul[data-position=child] .menu-item-label,
+.menu-main ul[data-position=child] svg {
+    opacity: 0
+}
+.menu-main ul[data-position=child] .menu-item-label {
+    transform: translateX(250px)
+}
+.root.login,
+.login-overlay {
+    background: linear-gradient(90deg, #c71b16, #502777) #c00;
+    color: #fff
+}
+.form-login .form-login-links {
+    text-align: center
+}
+.form-login .logo-container {
+    animation: fade-in-and-scale .9s;
+    animation-timing-function: cubic-bezier(.34, -.005, .05, 1.005)
+}
+.form-login .field-item-username {
+    animation: animate-username .8s
+}
+.form-login .field-item-password {
+    animation: animate-password .8s
+}
+.form-login .field-item-button {
+    animation: animate-login .8s;
+    position: relative
+}
+.form-login .loader-login {
+    background: url(images/spinner.svg) no-repeat center center;
+    height: 36px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 2px;
+    width: 100%;
+    z-index: -1
+}
+.form-login .loader-login span {
+    opacity: 0
+}
+.form-login.error ol {
+    animation: shake .15s 3 ease-in
+}
+.form-login.loading .button-login {
+    opacity: 0;
+    transition: opacity .4s
+}
+.form-login.loading .loader-login {
+    opacity: 1;
+    transition: opacity .4s
+}
+.form-login output {
+    opacity: 1
+}
+.form-login output.error-enter {
+    opacity: 0;
+    transform: translate(0, 24px)
+}
+.form-login output.error-enter-active {
+    opacity: 1;
+    transform: translate(0, 0);
+
+    transition: opacity 350ms, transform 350ms
+}
+.error-message output,
+.warning-message output {
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 20px;
+    min-height: 44px;
+    padding-left: 56px;
+    position: relative
+}
+.error-message output::before,
+.warning-message output::before {
+    content: "";
+    height: 36px;
+    left: 0;
+    position: absolute;
+    top: calc(50% - 18px);
+    width: 44px
+}
+.error-message output h3,
+.warning-message output h3 {
+    margin-top: 0
+}
+.error-message output p,
+.warning-message output p {
+    font-size: 16px
+}
+.error-message output {
+    background: rgba(255, 82, 88, .8);
+    border: transparent solid 2px
+}
+.error-message output::before {
+    background: url(images/icons.svg) center -372px no-repeat
+}
+.warning-message output {
+    border: #aaa solid 2px
+}
+.root:not(.personal-space-open) .personal-space-holder>.button-icon {
+    background: rgba(0, 0, 0, .5);
+    border-radius: 50%
+}
+.root:not(.personal-space-open) .personal-space-holder>.button-icon svg {
+    color: #fff;
+    fill: #fff
+}
+.personal-space-open .personal-space-holder>.button-icon svg {
+    color: currentColor;
+    fill: currentColor
+}
+.personal-space-holder .personal-space {
+    box-shadow: none
+}
+.personal-space-holder .personal-space .button-icon svg {
+    color: #969696;
+    fill: #969696
+}
+.personal-space {
+    background: #eee;
+    box-shadow: 0 -12px 12px -12px rgba(0, 0, 0, .4) inset
+}
+.personal-space .personal-space-heading {
+    color: #c00;
+    font-weight: 400
+}
+@media only screen and (max-width: 683px) and (max-device-width: 100000px) {
+    .personal-space .personal-space-heading {
+        font-size: 20px
+    }
+}
+@media only screen and (min-width: 684px),
+only screen and (min-device-width: 100000px) {
+    .personal-space .personal-space-heading {
+        font-size: 24px
+    }
+}
+@media only screen and (max-width: 683px) and (max-device-width: 100000px) {
+    .personal-space .balance {
+        line-height: 24px
+    }
+}
+@media only screen and (min-width: 684px),
+only screen and (min-device-width: 100000px) {
+    .personal-space .balance {
+        line-height: 32px
+    }
+}
+.personal-space .points-balance {
+    color: #502777
+}
+@media only screen and (max-width: 683px) and (max-device-width: 100000px) {
+    .personal-space .points-balance {
+        font-size: 16px
+    }
+}
+@media only screen and (min-width: 684px),
+only screen and (min-device-width: 100000px) {
+    .personal-space .points-balance {
+        font-size: 20px
+    }
+}
+@media only screen and (max-width: 683px) and (max-device-width: 100000px) {
+    .personal-space .button-deposit {
+        line-height: 24px
+    }
+}
+@media only screen and (min-width: 684px),
+only screen and (min-device-width: 100000px) {
+    .personal-space .button-deposit {
+        line-height: 32px
+    }
+}
+.personal-space .personal-space-section-heading {
+    color: #c00;
+    font-weight: 400
+}
+@media only screen and (max-width: 683px) and (max-device-width: 100000px) {
+    .personal-space .personal-space-section-heading {
+        font-size: inherit
+    }
+}
+@media only screen and (min-width: 684px),
+only screen and (min-device-width: 100000px) {
+    .personal-space .personal-space-section-heading {
+        font-size: inherit
+    }
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    .personal-space a.personal-space-section-heading::after {
+        border: 1px solid;
+        border-radius: 50%;
+        content: "i";
+        display: inline-block;
+        font-family: serif;
+        font-style: italic;
+        font-weight: 700;
+        height: 18px;
+        line-height: 18px;
+        text-align: center;
+        width: 18px
+    }
+    .personal-space a.personal-space-section-heading span {
+        display: none
+    }
+}
+.personal-space .personal-space-game-item .responsive-img-holder::after {
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0
+}
+.personal-space-igt .personal-space {
+    background: none
+}
+.personal-space-igt .personal-space-holder {
+    background: none
+}
+.personal-space-igt.personal-space-open .personal-space,
+.personal-space-igt.personal-space-open .personal-space-holder {
+    background: #eee
+}
+.page .page-fragment-enter {
+    transform: translateY(-100%)
+}
+.page .page-fragment-enter-active,
+.page .page-fragment-leave {
+    bottom: inherit;
+    min-height: 100%;
+    transform: none
+}
+.page .page-fragment-leave-active {
+    transform: translateY(-100%)
+}
+.page .page-fragment-enter,
+.page .page-fragment-leave-active {
+
+    transition: transform 500ms ease-in-out
+}
+.page .page-fragment-enter *,
+.page .page-fragment-leave-active * {
+    transition: none
+}
+.lobby .tile.game {
+    backface-visibility: hidden;
+    transform: translateZ(0)
+}
+.lobby .tile.game .responsive-img-holder::after {
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0
+}
+.lobby .tile a {
+    text-decoration: none
+}
+.lobby .tile .responsive-img-holder {
+    background: rgba(0, 0, 0, .9);
+    color: #fff
+}
+.lobby .game-title {
+    color: #333;
+    font-size: 12px;
+    font-weight: inherit
+}
+.lobby .promotion {
+    background: #00a3ce
+}
+@media only screen and (min-width: 0) and (max-width: 683px),
+only screen and (min-width: 684px) and (max-width: 971px) and (orientation: landscape) {
+    .lobby .promotion {
+        margin-top: -56px;
+        padding-top: 44px
+    }
+}
+@media only screen and (min-width: 684px) and (max-width: 971px) and (orientation: portrait),
+only screen and (min-width: 972px) {
+    .lobby .promotion {
+        margin-top: -104px;
+        padding-top: 92px
+    }
+}
+.lobby .promotion .tile {
+    background: #666
+}
+.lobby .welcome-bonus-tnc-link {
+    color: #fff
+}
+@media only screen and (min-width: 0) and (max-width: 683px),
+only screen and (min-width: 684px) and (max-width: 971px) and (orientation: landscape) {
+    .lobby .welcome-bonus-tnc-link {
+        font-size: 9px;
+        line-height: 13px
+    }
+}
+@media only screen and (min-width: 684px) and (max-width: 971px) and (orientation: portrait),
+only screen and (min-width: 972px) {
+    .lobby .welcome-bonus-tnc-link {
+        font-size: 16px
+    }
+}
+.lobby .section-heading {
+    color: #c00;
+    font-weight: 400
+}
+@media only screen and (max-width: 683px) and (max-device-width: 100000px) {
+    .lobby .section-heading {
+        font-size: inherit
+    }
+}
+@media only screen and (min-width: 684px),
+only screen and (min-device-width: 100000px) {
+    .lobby .section-heading {
+        font-size: 20px
+    }
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    .lobby a.section-heading::after {
+        border: 1px solid;
+        border-radius: 50%;
+        content: "i";
+        display: inline-block;
+        font-family: serif;
+        font-style: italic;
+        font-weight: 700;
+        height: 18px;
+        line-height: 18px;
+        text-align: center;
+        width: 18px
+    }
+    .lobby a.section-heading span {
+        display: none
+    }
+}
+.game-info-overlay .overlay-content {
+    min-height: 101%
+}
+.game-info-page-content,
+.game-info-overlay {
+    color: #fff
+}
+.game-info-page-content .button:not(.button-play),
+.game-info-overlay .button:not(.button-play) {
+    background: rgba(255, 255, 255, .3)
+}
+.game-info-page-content .overlay-button-close,
+.game-info-overlay .overlay-button-close {
+    background: rgba(127, 127, 127, .3)
+}
+.game-info-page-content .game-details,
+.game-info-overlay .game-details {
+    transition: opacity
+}
+.game-info-page-content .game-details dl:not(:empty),
+.game-info-overlay .game-details dl:not(:empty) {
+    background: transparent;
+    border-top: 2px solid;
+    box-sizing: border-box;
+    color: #fff;
+    transition: opacity 350ms
+}
+.game-info-page-content .game-details dt,
+.game-info-overlay .game-details dt {
+    font-weight: 700
+}
+.game-info-page-content .game-details.game-details-enter,
+.game-info-overlay .game-details.game-details-enter {
+    opacity: 0
+}
+.game-info-page-content .game-details.game-details-enter.game-details-enter-active,
+.game-info-overlay .game-details.game-details-enter.game-details-enter-active {
+    opacity: 1;
+    transition-delay: 150ms;
+    transition-duration: 150ms
+}
+.game-info-page-content .game-details.game-details-enter>*,
+.game-info-overlay .game-details.game-details-enter>* {
+    opacity: 0;
+    transition-duration: 500ms;
+
+}
+.game-info-page-content .game-details.game-details-leave.game-details-leave-active,
+.game-info-overlay .game-details.game-details-leave.game-details-leave-active {
+    opacity: 0;
+    transition-duration: 500ms
+}
+.game-info-page-content .game-info,
+.game-info-overlay .game-info {
+    transition: opacity 350ms
+}
+.game-info-page-content .game-info.show-introduction [data-tabname=how-to-play],
+.game-info-page-content .game-info.show-how-to-play [data-tabname=introduction],
+.game-info-overlay .game-info.show-introduction [data-tabname=how-to-play],
+.game-info-overlay .game-info.show-how-to-play [data-tabname=introduction] {
+    background: transparent;
+    border-color: #fff;
+    color: #fff!important
+}
+.game-info-page-content .game-info.show-introduction [data-tabname=introduction],
+.game-info-page-content .game-info.show-how-to-play [data-tabname=how-to-play],
+.game-info-overlay .game-info.show-introduction [data-tabname=introduction],
+.game-info-overlay .game-info.show-how-to-play [data-tabname=how-to-play] {
+    background: #fff;
+    border-color: transparent;
+    color: #000;
+    cursor: default
+}
+.game-info-page-content .game-info .game-info-introduction,
+.game-info-page-content .game-info .game-info-how-to-play,
+.game-info-overlay .game-info .game-info-introduction,
+.game-info-overlay .game-info .game-info-how-to-play {
+    border-bottom: 2px solid;
+    padding-bottom: 30px
+}
+.game-info-page-content .game-info h3,
+.game-info-page-content .game-info h4,
+.game-info-overlay .game-info h3,
+.game-info-overlay .game-info h4 {
+    color: inherit;
+    font-weight: 400
+}
+.game-info-page-content .related-games-container .related-games-title,
+.game-info-overlay .related-games-container .related-games-title {
+    text-align: center
+}
+.game-info-page-content .related-games-container .game-title,
+.game-info-overlay .related-games-container .game-title {
+    font-size: 12px;
+    font-weight: inherit
+}
+.game-details-bet-amounts,
+.game-info-bets-container {
+    font-size: 16px
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    .game-info-page-content .breadcrumbs {
+        font-size: 12px
+    }
+}
+.game-info-page-content .breadcrumbs li:not(:last-child):after {
+    content: "›";
+    position: absolute
+}
+.game-holder .spinner {
+    background: url(images/spinner.svg);
+    height: 36px;
+    left: 50%;
+    margin: -18px 0 0 -18px;
+    position: absolute;
+    top: 50%;
+    width: 36px
+}
+.sitemap-page h1 {
+    color: #c00;
+    font-weight: 400
+}
+@media only screen and (max-width: 683px) and (max-device-width: 100000px) {
+    .sitemap-page h1 {
+        font-size: 20px
+    }
+}
+@media only screen and (min-width: 684px),
+only screen and (min-device-width: 100000px) {
+    .sitemap-page h1 {
+        font-size: 28px
+    }
+}
+.sitemap-page .breadcrumbs {
+    font-size: 12px
+}
+.sitemap-page .breadcrumbs li:not(:last-child):after {
+    content: "›";
+    position: absolute
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    .sitewide-jackpot-ticker {
+        font-size: 16px
+    }
+}
+@media only screen and (min-width: 444px) and (max-width: 587px) and (max-device-width: 100000px) {
+    .sitewide-jackpot-ticker {
+        font-size: 20px
+    }
+}
+@media only screen and (min-width: 588px) and (max-width: 683px) and (max-device-width: 100000px) {
+    .sitewide-jackpot-ticker {
+        font-size: 16px
+    }
+}
+@media only screen and (min-width: 684px) and (max-width: 971px) and (max-device-width: 100000px) {
+    .sitewide-jackpot-ticker {
+        font-size: 20px
+    }
+}
+.sitewide-jackpot-ticker img {
+    margin: 4px 0 4px 4px
+}
+.sitewide-jackpot-ticker a {
+    line-height: 44px;
+    text-decoration: none
+}
+.sitewide-jackpot-ticker a div {
+    padding-left: 40px
+}
+.sitewide-jackpot-overlay {
+    background: rgba(0, 0, 0, .9)
+}
+.sitewide-jackpot-overlay-content {
+    text-align: center
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    .sitewide-jackpot-overlay-main-content {
+        width: calc((100% - 156px)/12*10 + 108px)
+    }
+}
+@media only screen and (min-width: 444px),
+only screen and (min-device-width: 100000px) {
+    .sitewide-jackpot-overlay-main-content {
+        width: calc((100% - 156px)/12*6 + 60px)
+    }
+}
+.sitewide-jackpot-overlay-main-content p {
+    font-size: 16px;
+    line-height: 20px
+}
+.sitewide-jackpot-overlay-main-content button {
+    font-size: 20px
+}
+.terms-and-conditions-body {
+    text-align: left;
+    transition: opacity
+}
+.terms-and-conditions-body h1 {
+    font-size: 20px
+}
+.terms-and-conditions-body h2 {
+    font-size: 16px
+}
+.terms-and-conditions-body.terms-and-conditions-body-enter {
+    opacity: 0
+}
+.terms-and-conditions-body.terms-and-conditions-body-enter.terms-and-conditions-body-enter-active {
+    opacity: 1;
+    transition-delay: 150ms;
+    transition-duration: 150ms
+}
+.terms-and-conditions-body.terms-and-conditions-body-enter>* {
+    opacity: 0;
+    transition-duration: 500ms;
+
+}
+.terms-and-conditions-body.terms-and-conditions-body.terms-and-conditions-body-leave-active {
+    opacity: 0;
+    transition-duration: 500ms
+}
+.hide-terms-and-conditions .terms-and-conditions-body {
+    border: 0;
+    height: 0;
+    overflow: hidden;
+    padding: 0
+}
+.add-to-homescreen-content {
+    background-color: #434343;
+    border-radius: 10px;
+    color: #fff;
+    height: 80px
+}
+@media only screen and (max-width: 587px) and (max-device-width: 100000px) {
+    .add-to-homescreen-content {
+        height: 72px
+    }
+}
+.add-to-homescreen-content .add-to-homescreen-close svg {
+    color: #fff;
+    fill: #fff
+}
+.add-to-homescreen-arrow {
+    border-bottom: 15px solid #434343;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    height: 0;
+    width: 0
+}
+@media only screen and (max-width: 587px) and (max-device-width: 100000px) {
+    .add-to-homescreen-arrow.safari-menu-bottom-arrow {
+        border-bottom: 0;
+        border-top: 15px solid #434343
+    }
+}
+.no-arrow {
+    display: none
+}
+.add-to-homescreen-logo {
+    border-radius: 10px;
+    margin: 14px 12px 0;
+    max-height: 100%;
+    width: 52px
+}
+@media only screen and (max-width: 587px) and (max-device-width: 100000px) {
+    .add-to-homescreen-logo {
+        width: 44px
+    }
+}
+.add-to-homescreen-text {
+    font-size: 12px;
+    line-height: 24px
+}
+@media only screen and (max-width: 587px) and (max-device-width: 100000px) {
+    .add-to-homescreen-text {
+        font-size: 10px
+    }
+}
+.add-to-homescreen-menu-icon {
+    background: url(images/safari-menu-icon.svg);
+    background-size: contain;
+    height: 28px;
+    vertical-align: bottom;
+    width: 28px
+}
+@media only screen and (max-width: 587px) and (max-device-width: 100000px) {
+    .add-to-homescreen-menu-icon {
+        height: 20px;
+        vertical-align: top;
+        width: 20px
+    }
+}
+.tile .game-tile-jackpot-ticker {
+    color: #fff;
+    font-weight: 700;
+    opacity: .9;
+    text-align: center
+}
+[role=contentinfo] {
+    color: #66757f
+}
+[role=contentinfo] .social a,
+[role=contentinfo] .trustmarks a {
+    color: inherit
+}
+@media only screen and (min-width: 0) and (max-width: 683px),
+only screen and (min-width: 684px) and (max-width: 971px) and (orientation: landscape) {
+    [role=contentinfo] .welcome-bonus-tnc {
+        margin-top: -44px;
+        padding-top: 44px
+    }
+}
+@media only screen and (min-width: 684px) and (max-width: 971px) and (orientation: portrait),
+only screen and (min-width: 972px) {
+    [role=contentinfo] .welcome-bonus-tnc {
+        margin-top: -92px;
+        padding-top: 92px
+    }
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    [role=contentinfo] .welcome-bonus-tnc .toggle {
+        font-size: 12px
+    }
+}
+.footer-icons svg {
+    pointer-events: none
+}
+.cookie-policy {
+    background: rgba(19, 12, 28, .9);
+    color: #fff;
+    transition: opacity 150ms
+}
+.cookie-policy.menu-bar-bottom-enter,
+.cookie-policy.menu-bar-bottom-leave-active {
+    opacity: .01
+}
+.cookie-policy.menu-bar-bottom-enter-active {
+    opacity: 1
+}
+.cookie-policy p {
+    font-size: 12px;
+    padding: 0 12px
+}
+.cookie-policy p a {
+    color: inherit
+}
+.loader {
+    background: #fff;
+    transition: opacity 500ms
+}
+.root:not(.loading) .loader {
+    opacity: 0;
+    transition-delay: 0, 0, 0;
+    transition-duration: 500ms, 500ms, 500ms;
+
+}
+.dialog.overlay-enter,
+.dialog.overlay-leave,
+.modal-window.overlay-enter,
+.modal-window.overlay-leave {
+    position: fixed
+}
+.dialog.overlay-enter,
+.modal-window.overlay-enter {
+    opacity: 0;
+    transform: translateY(100%)
+}
+.dialog.overlay-enter.overlay-enter-active,
+.modal-window.overlay-enter.overlay-enter-active {
+    opacity: 1;
+    transform: none
+}
+.dialog.overlay-leave,
+.modal-window.overlay-leave {
+    opacity: 1;
+    transform: translateY(0)
+}
+.dialog.overlay-leave.overlay-leave-active,
+.modal-window.overlay-leave.overlay-leave-active {
+    opacity: 0;
+    transform: translateY(100%)
+}
+.dialog {
+    background: rgba(0, 0, 0, .9)
+}
+.dialog .overlay-content {
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .75)
+}
+.dialog-heading {
+    color: #c00;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center
+}
+.dialog-content {
+    background: #fff;
+    border-radius: 6px 6px 0 0;
+    color: #8c52a8;
+    text-align: center
+}
+.dialog-content .icon-large svg {
+    color: #8c52a8;
+    fill: #8c52a8
+}
+.dialog-content .session-reminder-buttons button {
+    text-decoration: underline
+}
+.dialog-content .native-icon {
+    background: url(images/device/icons/native-icon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 6px
+}
+.dialog-buttons .button {
+    border-radius: 0;
+    line-height: 32px
+}
+.dialog-buttons .button:first-child {
+    border-bottom-left-radius: 6px
+}
+.dialog-buttons .button:last-child {
+    border-bottom-right-radius: 6px
+}
+.growl-list {
+
+    transition: transform 500ms
+}
+.growl {
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .75);
+    color: #8c52a8;
+    transition: opacity
+}
+.growl.growl-enter {
+    opacity: 0
+}
+.growl.growl-enter.growl-enter-active {
+    opacity: 1;
+    transition-delay: 150ms;
+    transition-duration: 150ms
+}
+.growl.growl-enter>* {
+    opacity: 0;
+    transform: translateX(20px);
+    transition-duration: 500ms;
+
+
+}
+.growl.growl-leave.growl-leave-active {
+    opacity: 0;
+    transition-duration: 500ms
+}
+.growl .growl-content {
+    background: #fff;
+    padding: 12px
+}
+@media only screen and (max-width: 1024px) and (max-device-width: 100000px) {
+    .growl .growl-content {
+        padding-right: 68px
+    }
+}
+@media only screen and (min-width: 1025px),
+only screen and (min-device-width: 100000px) {
+    .growl .growl-content {
+        padding-right: 68px
+    }
+}
+.growl.growl-action .growl-content {
+    padding-bottom: 12px
+}
+.growl .growl-heading {
+    color: #c00;
+    font-size: 16px;
+    font-weight: inherit
+}
+.growl .growl-button-cta {
+    border-radius: 0;
+    line-height: 32px
+}
+.growl .growl-button-close,
+.growl .icon {
+    top: 12px
+}
+.growl .growl-button-close {
+    right: 12px
+}
+.growl .growl-button-close svg {
+    color: #502777;
+    fill: #502777
+}
+.growl .icon {
+    left: 12px
+}
+@media only screen and (max-width: 1024px) and (max-device-width: 100000px) {
+    .growl .icon+.growl-content {
+        padding-left: 68px
+    }
+}
+@media only screen and (min-width: 1025px),
+only screen and (min-device-width: 100000px) {
+    .growl .icon+.growl-content {
+        padding-left: 68px
+    }
+}
+.collapsible-content {
+    border-bottom: solid 1px;
+    border-top: solid 1px
+}
+[role=main].page-fragment-enter,
+[role=main].page-fragment-leave {
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0
+}
+[role=main].page-fragment-enter-active {
+    opacity: .99;
+    transition: opacity 16ms
+}
+[role=main].page-fragment-leave-active {
+    opacity: .99;
+    transition: opacity 16ms
+}
+.overlay.modal-window.overlay-enter-active,
+.overlay.modal-window.overlay-leave-active {
+
+    transition: transform 500ms, opacity 500ms
+}
+.overlay.dialog.overlay-enter-active,
+.overlay.dialog.overlay-leave-active {
+    transition: opacity 350ms
+}
+.overlay.dialog.overlay-enter-active .overlay-content,
+.overlay.dialog.overlay-leave-active .overlay-content {
+    transition-duration: 350ms, 350ms;
+
+
+}
+.overlay-button-close {
+    animation: fade-in-and-grow 500ms
+}
+.overlay-transition-group .overlay-button-close {
+    animation: delayed-fade-in-and-grow 1000ms
+}
+.icon-sound-on .icon-sound-off {
+    display: none
+}
+.icon-sound-off .icon-sound-on {
+    display: none
+}
+.fullscreen-overlay .mask {
+    background-color: rgba(0, 0, 0, .85);
+    color: #fff
+}
+.fullscreen-overlay .drag {
+    animation: swipe 1s infinite;
+    background-color: #fff;
+    border-radius: 22px;
+    display: block;
+    margin: 0 auto
+}
+.fullscreen-overlay .drag:after {
+    background-color: #fff;
+    border-radius: 50%;
+    content: "";
+    height: 44px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 44px
+}
+.fullscreen-overlay .tap {
+    animation: tap 1s infinite;
+    background-color: #fff;
+    border-radius: 50%
+}
+.fullscreen-overlay .tap:after {
+    animation: pulse 1s infinite;
+    border: 6px solid #fff;
+    border-radius: 50%;
+    box-sizing: border-box;
+    content: "";
+    height: 66px;
+    left: -11px;
+    position: absolute;
+    top: -11px;
+    width: 66px
+}
+.fullscreen-overlay .action-title {
+    color: #fff;
+    font-size: 24px
+}
+.external-content {
+    background-color: rgba(0, 0, 0, .9)
+}
+.external-content .overlay-button-close {
+    background-color: rgba(0, 0, 0, .5)
+}
+.button-icon.light-layout-button-home {
+    color: #fff;
+    fill: #fff
+}
+.quick-deposit-overlay {
+    background: rgba(255, 255, 255, .98)
+}
+.quick-deposit-overlay .overlay-button-close svg {
+    color: #4d4c4c;
+    fill: #4d4c4c
+}
+.quick-deposit .balance-container,
+.quick-deposit .balance-container .balance {
+    color: #4d4c4c
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    .quick-deposit .balance-container,
+    .quick-deposit .balance-container .balance {
+        font-size: 14px
+    }
+}
+.quick-deposit .deposit-balance .balance {
+    background: none;
+    font-size: 16px
+}
+.quick-deposit .add-method {
+    color: #4d4c4c;
+    text-align: right
+}
+.quick-deposit .deposit-title {
+    color: #4d4c4c;
+    text-align: center
+}
+.quick-deposit .button-deposit-amount {
+    font-size: 16px
+}
+.quick-deposit .cv2-info {
+    background: url(images/cv2.svg) 12px center no-repeat #fff;
+    background-size: 25%;
+    border-radius: 6px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+    box-sizing: border-box;
+    color: #444;
+    text-shadow: none
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    .quick-deposit .cv2-info {
+        background: #fff
+    }
+    .quick-deposit .cv2-info::after {
+        border: transparent solid 12px;
+        content: "";
+        position: absolute;
+        right: 10px;
+        border-top-color: #fff;
+        bottom: -24px
+    }
+}
+@media only screen and (min-width: 444px) and (max-width: 683px) and (max-device-width: 100000px) {
+    .quick-deposit .cv2-info::after {
+        border: transparent solid 12px;
+        content: "";
+        position: absolute;
+        top: calc(50% - 12px);
+        border-left-color: #fff;
+        right: -24px
+    }
+}
+@media only screen and (min-width: 684px) and (orientation: portrait) {
+    .quick-deposit .cv2-info::after {
+        border: transparent solid 12px;
+        content: "";
+        position: absolute;
+        right: 10px;
+        border-top-color: #fff;
+        bottom: -24px
+    }
+}
+@media only screen and (min-width: 684px) and (orientation: landscape) {
+    .quick-deposit .cv2-info::after {
+        border: transparent solid 12px;
+        content: "";
+        position: absolute;
+        top: calc(50% - 12px);
+        border-left-color: #fff;
+        right: -24px
+    }
+}
+.quick-deposit .card-container {
+    background-color: #009be1;
+    background-size: 100%;
+    border-radius: 12px;
+    color: #fff;
+    text-shadow: 0 0 1px #000
+}
+@media only screen and (min-width: 444px) and (max-width: 683px) and (max-device-width: 100000px) {
+    .quick-deposit .card-container {
+        border-radius: 8px
+    }
+}
+.quick-deposit .card-container .card-cv2 input {
+    background: #fff;
+    border: 0;
+    color: #444
+}
+@media only screen and (max-width: 443px) and (max-device-width: 100000px) {
+    .quick-deposit .card-container .card-cv2 input {
+        font-size: 14px
+    }
+}
+.quick-deposit .card-container .icon-help {
+    background: url(images/icon-help.svg) no-repeat center;
+    background-size: 24px
+}
+.quick-deposit .card-container .card-logo {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: hidden
+}
+@media only screen and (min-width: 444px) and (max-width: 683px) and (max-device-width: 100000px) {
+    .quick-deposit .card-container .card-logo {
+        background-position: 12px center;
+        background-size: auto
+    }
+}
+.quick-deposit .mastercard {
+    background-color: #006
+}
+.quick-deposit .mastercard .card-logo {
+    background-image: url(images/mastercard-full.svg)
+}
+@media only screen and (min-width: 444px) and (max-width: 683px) and (max-device-width: 100000px) {
+    .quick-deposit .mastercard .card-logo {
+        background-image: url(images/mastercard-small.svg)
+    }
+}
+.quick-deposit .visa {
+    background-color: #005eb1
+}
+.quick-deposit .visa .card-logo {
+    background-image: url(images/visa-full.svg)
+}
+@media only screen and (min-width: 444px) and (max-width: 683px) and (max-device-width: 100000px) {
+    .quick-deposit .visa .card-logo {
+        background-image: url(images/visa-small.svg)
+    }
+}
+.quick-deposit .deposit-amounts .button {
+    background: #4d4c4c;
+    border: 0;
+    color: #fff
+}
+.quick-deposit .deposit-amounts .button.active {
+    background: #502777
+}
+.quick-deposit .deposit-amounts .text-amount-currency {
+    color: #444;
+    font: 16px
+}
+.quick-deposit .deposit-amounts input,
+.quick-deposit .deposit-amounts input:focus {
+    background: #fff;
+    border: 2px solid;
+    box-shadow: none;
+    color: #444;
+    font: 16px
+}
+.quick-deposit .support-links {
+    color: #4d4c4c
+}
+@media only screen and (min-width: 444px),
+only screen and (min-device-width: 100000px) {
+    .quick-deposit .support-links {
+        text-align: center
+    }
+}
+.quick-deposit.invalid .button-deposit {
+    background: #c2c2c2;
+    border: 2px solid #c2c2c2;
+    color: #fff
+}
+.quick-deposit.invalid .button-deposit.touchable.touching {
+    animation: none
+}
+.quick-deposit .loader-quick-deposit {
+    background: url(images/spinner-dark.svg) no-repeat center
+}
+.quick-deposit-trustmarks,
+.polling-message {
+    color: #4d4c4c
+}
+.quick-deposit-trustmarks svg {
+    color: #4d4c4c;
+    fill: #4d4c4c
+}
+.quick-deposit-heading {
+    color: #c00;
+    font: "Alegreya Sans", sans-serif;
+    text-align: center
+}
+.promotions-lobby>header,
+.promotions-category>header {
+    color: #c00;
+    text-align: center
+}
+.promotions-category .section-heading {
+    font-weight: 400
+}
+@media only screen and (max-width: 587px) and (max-device-width: 100000px) {
+    .promotions-category .section-heading {
+        font-size: 16px;
+        line-height: 20px
+    }
+}
+@media only screen and (min-width: 588px),
+only screen and (min-device-width: 100000px) {
+    .promotions-category .section-heading {
+        font-size: 20px;
+        line-height: 24px
+    }
+}
+.promotions-category .section-sub-heading {
+    color: #c00;
+    font-weight: 400;
+    text-transform: center
+}
+@media only screen and (max-width: 587px) and (max-device-width: 100000px) {
+    .promotions-category .section-sub-heading {
+        font-size: 12px
+    }
+}
+@media only screen and (min-width: 588px),
+only screen and (min-device-width: 100000px) {
+    .promotions-category .section-sub-heading {
+        font-size: 16px;
+        line-height: 8px
+    }
+}
+.native-app {
+    user-select: none
+}
+.tile .sash {
+    background-color: #c00;
+    border: 1px solid #a30000;
+    border-radius: 0 4px 4px 0;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase
+}
+@media only screen and (min-width: 0) and (max-width: 683px),
+only screen and (min-width: 684px) and (max-width: 971px) and (orientation: landscape) {
+    .tile:not(.wide) .sash {
+        display: none
+    }
+}
+.quick-deposit::-moz-placeholder {
+    color: #4d4c4c;
+    opacity: 1
+}
+.quick-deposit:-ms-input-placeholder {
+    color: #4d4c4c
+}
+.quick-deposit .textbox {
+    color: #4d4c4c
+}
+.quick-deposit .button-deposit {
+    background: #c2c2c2;
+    border: 2px solid #c2c2c2
+}
+.quick-deposit .quick-deposit-heading {
+    font-weight: 400
+}
+.quick-deposit .balance {
+    color: #4d4c4c
+}
+.button-deposit {
+    z-index: 1
+}
+.button-deposit:after {
+    background: #502777;
+    border: #502777;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transition: all 300ms ease-in;
+    width: 100%;
+    z-index: 2
+}
+.valid .button-deposit:after {
+    opacity: 1
+}
+.button-deposit span {
+    position: relative;
+    z-index: 3
+}

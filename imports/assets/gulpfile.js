@@ -11,6 +11,6 @@ gulp.task('default', function () {
 		.pipe(sass().on('error', sass.logError))
 		.pipe(autoprefixer())
 		.pipe(cleancss())
-		.pipe(sourcemaps.write('./styles/maps'))
-		.pipe(gulp.dest('./'));
+		.pipe(sourcemaps.write('../../client/stylesheets/maps'))
+		.pipe(gulp.dest('../../client/stylesheets'));
 });
